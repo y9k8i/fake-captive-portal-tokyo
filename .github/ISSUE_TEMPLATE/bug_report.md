@@ -1,7 +1,6 @@
 ---
 name: Bug report
 about: バグが発生している場合
-title: "[バグ] "
 labels: bug
 assignees: ''
 
