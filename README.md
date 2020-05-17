@@ -1,4 +1,5 @@
-# Fake Captive Portal in Tokyo
+# Fake Captive Portal Tokyo
+A fake captive portal plugin for Wifipumpkin3 based on open wireless access points in Tokyo.
 
 ## Getting Started
 If you have not already installed Wifipumpkin3, we recommend using an installation script.
@@ -14,8 +15,11 @@ chmod +x installer.sh
 ```
 
 ## License
-This project is not licensed - see the [LICENSE.md](LICENSE.md) file for details
+This project is not licensed - see the [LICENSE.md](LICENSE.md) file for details  
+Please contact me if you are interested in this plugin.
 
-## Authors
-@zer0-ne  
-@y9k8i
+## Author
+[@y9k8i](https://github.com/y9k8i)
+
+## Collaborator
+[@zer0-ne](https://github.com/zer0-ne)
