@@ -25,8 +25,6 @@ if (!theForm) {
 }
 function __doPostBack(eventTarget, eventArgument) {
     if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-        theForm.__EVENTTARGET.value = eventTarget;
-        theForm.__EVENTARGUMENT.value = eventArgument;
         theForm.submit();
     }
 }
@@ -36,12 +34,7 @@ function __doPostBack(eventTarget, eventArgument) {
 <script src="{{ url_for('static', filename='js/MsAjaxJs.js') }}" type="text/javascript"></script>
 <script src="{{ url_for('static', filename='js/WebFormsJs.js') }}" type="text/javascript"></script>
 <script src="{{ url_for('static', filename='js/focus.js') }}" type="text/javascript"></script>
-<div class="aspNetHidden">
-
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0A69E300">
-	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="7S1TMopJ0KcAqLQf50i5qVfYw7SFcKNcuTtCUTQywkr2XxQjJHH1DO7FhX5h81pq8aT76709LYBDZQX0AaTIKO1tQiHz1ajPup4ro7dWXK8VBdXkMD2//gaIH49+iLTicn0Zb0RXKQNxWnL/wzyi6PKsFOl1IIcWI0I7IM1Tu3v+rAzH">
-</div>
-        <script type="text/javascript">
+<script type="text/javascript">
 //<![CDATA[
 Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'form1', [], [], [], 90, 'ctl00');
 //]]>

@@ -38,8 +38,6 @@ if (!theForm) {
 }
 function __doPostBack(eventTarget, eventArgument) {
     if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-        theForm.__EVENTTARGET.value = eventTarget;
-        theForm.__EVENTARGUMENT.value = eventArgument;
         theForm.submit();
     }
 }
@@ -49,12 +47,7 @@ function __doPostBack(eventTarget, eventArgument) {
 <script src="{{ url_for('static', filename='js/MsAjaxJs.js') }}" type="text/javascript"></script>
 <script src="{{ url_for('static', filename='js/WebFormsJs.js') }}" type="text/javascript"></script>
 <script src="{{ url_for('static', filename='js/focus.js') }}" type="text/javascript"></script>
-<div class="aspNetHidden">
-
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="41815055">
-	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="9cHP722ZoesHOOe7bz3F5gB5x8nCclr+jJ+l6beDxXh2efHXjc++J+KXoTgSgKA20eTRL6KU6KvDzkMkLybVw2Jzgvco5O01S6tmD/NKMIiNcr6TBNaQu8sFnjxpyRANaBbXAsiQH+uA86EncQrRO0j41iwpDP+bgKXFM2a/jNOZCqv1mOLv7lil9Ok9aGzjAAYxRKTS4IE7njFlCLRlXxAqOjhPDH1C9ga/2eqUalY3S+Oat1NwpVLtpZCEBDMlUEYouyVN/4nbT2mlV8AamBVk4QID2e+J7sxZmKX7Uo48EdQgEqjrPZxzmPRkdOhSQqtap3PsArLhrAaqPKuMtB4VbK/AvbOqAw5/PJmVBVIpHaD10i3TKJpqUiJuX5ZnYIo3HQ==">
-</div>
-        <script type="text/javascript">
+<script type="text/javascript">
 //<![CDATA[
 Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'form1', [], [], [], 90, 'ctl00');
 //]]>
