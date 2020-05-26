@@ -28,7 +28,7 @@
     </style>
 <link href="{{ url_for('static', filename='css/uspot.jp.css') }}" rel="stylesheet" type="text.css"><link rel="SHORTCUT ICON" href="https://www.uspot.jp/img/oem/124/124.ico"><link rel="apple-touch-icon" href="https://www.uspot.jp/img/oem/124/u124_114.gif"><meta name="robots" content="noindex"></head>
 <body>
-   <form method="post" id="form1" style="background-color:#FFFFFF" enctype="multipart/form-data">
+   <form method="post" id="form1" style="background-color:#FFFFFF;padding-top:0px;" enctype="multipart/form-data">
 
 <script type="text/javascript">
 //<![CDATA[
@@ -105,7 +105,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'form1', [], [], [], 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="topnavigation"><!---->
         <div class="container-fluid header">
-              <img id="ImgBrand" class="Brandimg" src="{{ url_for('static', filename='images/oem124.png') }}" align="top">
+              <img id="ImgBrand" class="navbar-brand Brandimg" src="{{ url_for('static', filename='images/oem124.png') }}" align="top" style="padding-left:0px;">
               <div class="navbar-header pull-right" style="margin-top:3.5px;">
                   <a id="nav-expander" style="margin-right:5px;font-size:15px;text-decoration:none;cursor:pointer;">
                     <img id="ImgUser" class="img-rounded" src="{{ url_for('static', filename='images/UU.png') }}" style="border-style:None;width:38px;">
