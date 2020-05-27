@@ -1,0 +1,103 @@
+html{border:0px currentColor;border-image:none}
+body{border:0px currentColor;border-image:none}
+body.booklet{margin:0px;padding:0px;overflow:visible}
+#booklet{margin:0px;padding:0px}
+#booklet #content{margin:0px;padding:0px;border:0px solid white;border-image:none;width:auto;float:none}
+#booklet #pageheader{background:rgb(54,88,153);color:rgb(255,255,255)}
+#booklet #pageheader #homelink{background:url("/rsrc.php/v3/y8/r/qYG_pvNhLC1.png") no-repeat 10px 50%;margin:0px;padding:8px 10px 8px 30px;color:rgb(255,255,255)}
+#booklet #fbpageheader{height:34px;border-bottom-color:rgb(26,56,120);border-bottom-width:1px;border-bottom-style:solid;background-color:rgb(54,88,153)}
+#booklet #fbpageheader #logo{background-position:12px 10px;width:96px;height:34px;float:left;background-image:url("/rsrc.php/v3/yM/r/ugp651yKSg7.png");background-repeat:no-repeat;background-size:auto}
+#booklet #fbpageheader a{color:rgb(255,255,255);font-weight:bold;margin-top:6px;float:right;display:inline-block}
+#booklet #fbpageheader a:hover{text-decoration:none;background-color:rgb(66,103,178)}
+#booklet #fbpageheader a:focus{text-decoration:none;background-color:rgb(66,103,178)}
+#booklet #fbpageheader a:active{text-decoration:none;background-color:rgb(66,103,178)}
+#booklet #dialog_buttons{padding:8px 10px}
+#booklet #dialog_buttons input{margin:2px}
+#booklet #pagefooter #pagefooter_links{width:auto}
+#booklet #pagefooter{margin:0px auto;width:auto}
+#booklet #pagefooter .copyright_and_location{width:auto}
+#booklet .status{margin:0px}
+.login_page .title_header{margin:0px 0px 10px;padding:0px 0px 10px}
+.login_page .login_page_spacer{height:35px}
+.login_page .title_header h2.no_icon{background:0%;margin:0px;padding:0px}
+.login_page #loginform{margin:auto;padding:15px 0px;width:380px;text-align:left;clear:left}
+.login_page #signup_area{margin:auto;width:380px;clear:left}
+.login_page .signup_button{float:left}
+.login_page .fbLoginNuxTrackingPixel{width:0px;height:0px;display:inline}
+.login_page .signup_text{margin:0px 0px 20px 10px;width:200px;float:left}
+.login_page hr{width:280px;margin-left:0px}
+.login_page #loginform p{margin:10px 0px;text-align:left;line-height:16px}
+.login_page #loginform p.reset_password{padding-bottom:0px;margin-bottom:0px}
+.login_page .apinote{background:rgb(255,255,255);margin:10px auto;width:450px}
+.login_page .apinote h2{font-size:12px;margin-bottom:6px}
+.login_page .login_form_container .dialog_buttons{margin:0px;padding:8px 10px;left:0px;text-align:right;right:0px;bottom:0px;border-top-color:rgb(204,204,204);border-top-width:1px;border-top-style:solid;position:absolute;background-color:rgb(245,246,247)}
+.login_page .dialog_buttons .logged_in_as{width:240px;text-align:left;margin-top:3px;float:left}
+.login_page .dialog_buttons .register_link{text-align:left;font-weight:bold;margin-top:4px;float:left}
+.login_page #email{direction:ltr}
+.login_page #error{margin-top:20px}
+div.login_page_interstitial{width:640px;margin-top:0px;margin-bottom:0px}
+.login_page .login_message{margin:auto;width:640px}
+.login_page #booklet #content{padding:15px 30px 20px;width:auto;margin-bottom:46px;float:none}
+.login_page #booklet #loginform{padding-top:0px;margin-top:20px}
+.login_page #booklet #dialog_buttons input{margin:0px}
+.form_row{padding:0px 0px 8px;text-align:left}
+.form_row .login_form_label{padding:3px 0px;width:100px;float:left;display:block}
+.form_row input{margin:0px}
+.form_row .inputtext{width:175px}
+.inputpassword{width:175px}
+.form_row .checkbox{margin:5px 4px 2px 0px;width:15px;float:left}
+.persistent{padding:3px 0px 3px 100px;text-align:left}
+#login_button_inline{margin-right:5px;margin-bottom:5px;float:left}
+#register_link{margin-top:5px;float:left}
+#buttons{padding:5px 0px 0px 100px;text-align:left}
+#buttons .uiButton{margin-right:2px}
+#buttons label{width:auto;float:none}
+.reset_password{padding-left:100px}
+.not_me_link{padding-left:100px}
+.reset_password label{width:auto;font-weight:normal;float:none}
+.reset #content{padding:20px}
+.login_error_box{margin-top:10px}
+._4rbf{padding:8px;color:rgb(255,255,255);font-size:13px;max-width:300px}
+:not(:focus)._4rer{background:url("/rsrc.php/v3/yx/r/Save3CshBKQ.png") no-repeat right 8px center rgb(255,255,255);border-radius:3px;border:1px solid rgb(139,3,0);border-image:none}
+.x1-5 :not(:focus)._4rer{background-image:url("/rsrc.php/v3/yU/r/ctGQhZbjaMO.png");background-size:18px 18px}
+.x2 :not(:focus)._4rer{background-image:url("/rsrc.php/v3/yU/r/ctGQhZbjaMO.png");background-size:18px 18px}
+html ._44mg{padding:6px 0px;width:302px}
+html ._1kbt._1kbt{padding:5px 8px;width:284px;font-size:14px}
+._39il.login_page #loginform{padding:0px;text-align:center}
+._39il.login_page .persistent{padding:18px 0px;text-align:center}
+._1w1t{margin:auto;padding:22px 108px 26px;width:396px}
+._41-v ._1w1t{padding:22px 8px 26px;margin-top:88px}
+._1uxu{margin:auto;width:612px}
+._39il ._xkt ._82gm{left:10px;width:20px;height:20px;bottom:10px;position:absolute}
+._39il ._82go{border-radius:2px;width:252px;font-size:14px;background-color:rgb(255,255,255)}
+._39il ._52e0{width:252px;font-size:14px}
+._xkt{padding:6px 0px}
+._39il ._82gv{padding:2px 40px;color:rgb(96,103,112);line-height:16px;font-size:12px}
+._16jx{font-size:14px}
+._xku{padding:18px 0px}
+._85el{padding:18px 0px 16px}
+._85em{padding-top:6px}
+._5466{margin:auto}
+._xkv{padding:6px 0px}
+._42w_{margin:0px auto 40px;width:640px}
+._62c3{min-width:282px}
+._62c3 + ._62c2{min-width:282px}
+._62c3 + ._62c2{margin:12px 0px 0px}
+.login_page_private ._42w_ a.showMore{background-color:rgb(25,25,25)}
+._1rf5{margin:10px 10.5%;width:79%;text-align:center;overflow:hidden;display:block;white-space:nowrap}
+._82qp ._82qq{margin-top:16px;margin-bottom:16px}
+._1rf5 > span{display:inline-block;position:relative}
+._1rf5 > span::before{background:rgb(204,208,213);top:50%;width:9999px;height:1px;position:absolute;content:""}
+._1rf5 > span::after{background:rgb(204,208,213);top:50%;width:9999px;height:1px;position:absolute;content:""}
+._1rf5 > span::before{right:100%;margin-right:15px}
+._1rf5 > span::after{left:100%;margin-left:15px}
+._1rf8{color:rgb(75,79,86)}
+._4idf .fb_content{min-height:inherit}
+.signupBanner .signup_bar_container{background-color:transparent}
+.signupBanner .signup_box{margin:0px auto;width:980px;position:relative}
+.signupBanner .signup_btn{left:180px;top:-50px;padding-top:2px;padding-bottom:2px;position:absolute}
+.signupBanner .signup_btn_thickbar{left:180px;top:-70px;position:absolute}
+.signup_area{margin-top:23px}
+.timelineLayoutLoggedOut .signup_btn{left:250px}
+#bootloader_ccHw5{height:42px}
+.bootloader_ccHw5{display:block !important}
