@@ -1,291 +1,159 @@
 <!DOCTYPE html>
 <!-- Processed by pywebarchive -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"><meta name="apple-mobile-webapp-capable" content="yes"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
-	ご利用方法選択
-</title><link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet"><link href="{{ url_for('static', filename='css/bootstrap-theme.min.css') }}" rel="stylesheet"><link href="{{ url_for('static', filename='css/bootstrap-customize.css') }}" rel="stylesheet"><link href="{{ url_for('static', filename='css/main.min.css') }}" rel="stylesheet"><link href="{{ url_for('static', filename='css/site.min.css') }}" rel="stylesheet">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-    <style>
-        .navlink {
-        display:block;
-        }
-        .Brandimg {
-        max-height:100%;
-        }
-    </style>
+<head id="Head1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-webapp-capable" content="yes">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>ご利用方法選択</title>
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/bootstrap-theme.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/bootstrap-customize.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/main.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/site.min.css') }}" rel="stylesheet">
+	<style>.navlink{display:block}.Brandimg{max-height:100%}</style>
+	<style type="text/css">.form-signin{max-width:360px;display:block;margin-left:auto;margin-right:auto;margin-top:30px}.p1{margin-top:20px;margin-bottom:20px}</style>
+	<link href="{{ url_for('static', filename='css/uspot.jp.css') }}" rel="stylesheet" type="text.css">
+	<link rel="SHORTCUT ICON" href="https://www.uspot.jp/img/oem/124/124.ico">
+	<link rel="apple-touch-icon" href="https://www.uspot.jp/img/oem/124/u124_114.gif">
+	<meta name="robots" content="noindex">
+</head>
 
-    <style type="text/css">
-      .form-signin {
-        max-width: 360px;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          margin-top:30px;
-      }
-       .p1 {
-        margin-top:20px;
-        margin-bottom:20px;
-         }
-    </style>
-<link href="{{ url_for('static', filename='css/uspot.jp.css') }}" rel="stylesheet" type="text.css"><link rel="SHORTCUT ICON" href="https://www.uspot.jp/img/oem/124/124.ico"><link rel="apple-touch-icon" href="https://www.uspot.jp/img/oem/124/u124_114.gif"><meta name="robots" content="noindex"></head>
 <body>
-   <form method="post" id="form1" style="background-color:#FFFFFF;padding-top:0px;" enctype="multipart/form-data">
+	<form method="post" id="form1" style="background-color:#FFFFFF;padding-top:0px;" enctype="multipart/form-data">
+		<script type="text/javascript">
+		//<![CDATA[
+			var theForm=document.forms['form1'];if (!theForm){theForm=document.form1}function __doPostBack(eventTarget, eventArgument){if (!theForm.onsubmit || (theForm.onsubmit() !=false)){theForm.submit()}}
+		//]]>
+		</script>
+		<script src="{{ url_for('static', filename='js/MsAjaxJs.js') }}" type="text/javascript"></script>
+		<script src="{{ url_for('static', filename='js/WebFormsJs.js') }}" type="text/javascript"></script>
+		<script src="{{ url_for('static', filename='js/focus.js') }}" type="text/javascript"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+			Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'form1', [], [], [], 90, 'ctl00');
+		//]]>
+		</script>
 
-<script type="text/javascript">
-//<![CDATA[
-var theForm = document.forms['form1'];
-if (!theForm) {
-    theForm = document.form1;
-}
-function __doPostBack(eventTarget, eventArgument) {
-    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-        theForm.submit();
-    }
-}
-//]]>
-</script>
+		<nav id="rightnav">
+			<ul class="list-unstyled main-menu">
+				<li class="text-right"><a id="nav-close" class="navlink">X</a></li>
+				<li class="nav-header">
+					<span id="Repeater1_Lm1_0">接続設定・ご利用方法</span>
+				</li>
+				<li>
+					<a id="Repeater1_HLm1_1" class="navlink" href="{{ url_for('static' , filename='html/help_iOS_ja.html')}}">
+						<span class="glyphicon glyphicon-chevron-right"></span>iPhone・iPad
+					</a>
+				</li>
+				<li>
+					<a id="Repeater1_HLm1_2" class="navlink" href="{{ url_for('static' , filename='html/help_android_ja.html')}}">
+						<span class="glyphicon glyphicon-chevron-right"></span>Android
+					</a>
+				</li>
+				<li class="nav-header">
+					<span id="Repeater1_Lm1_3">ご利用開始について</span>
+				</li>
+				<li>
+					<a id="Repeater1_HLm1_4" class="navlink" href="{{ url_for('static' , filename='html/help_nexentry_ja.html')}}">
+						<span class="glyphicon glyphicon-chevron-right"></span>利用登録マニュアル
+					</a>
+				</li>
+				<li>
+					<a id="Repeater1_HLm1_5" class="navlink" href="{{ url_for('static' , filename='html/help_nexagreement_ja.html')}}">
+						<span class="glyphicon glyphicon-chevron-right"></span>利用約款
+					</a>
+				</li>
+				<li>
+					<a id="Repeater1_HLm1_6" class="navlink" href="{{ url_for('static' , filename='html/help_nexattention_ja.html')}}">
+						<span class="glyphicon glyphicon-chevron-right"></span>ご利用上の注意事項
+					</a>
+				</li>
+			</ul>
+		</nav>
 
-<script src="{{ url_for('static', filename='js/MsAjaxJs.js') }}" type="text/javascript"></script>
-<script src="{{ url_for('static', filename='js/WebFormsJs.js') }}" type="text/javascript"></script>
-<script src="{{ url_for('static', filename='js/focus.js') }}" type="text/javascript"></script>
-<script type="text/javascript">
-//<![CDATA[
-Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'form1', [], [], [], 90, 'ctl00');
-//]]>
-</script>
-
-       <!--<asp:ScriptReference Name="jquery" /> 2-->
-<nav id="rightnav">
-    <ul class="list-unstyled main-menu">
-        <li class="text-right"><a href="https://www.uspot.jp/user/select.aspx?comm=&amp;loc=f&amp;unitname=679237_001&amp;inf=wlan0&amp;mac=08f69c979e13&amp;mode=0&amp;mkk=0&amp;red=0" id="nav-close" class="navlink">X</a></li>
-
-                    <li id="Btn1"><a id="Button1" class="navlink" href="javascript:__doPostBack(&#x27;ctl00$Button1&#x27;,&#x27;&#x27;)"><span class="icon-ok-sign"></span>利用登録</a></li>
-                    <li id="Btn2"><a id="Button2" class="navlink" href="javascript:__doPostBack(&#x27;ctl00$Button2&#x27;,&#x27;&#x27;)"><span class="icon-lock"></span>ログイン</a></li>
-                   <li class="nav-header">
-                   <span id="Repeater1_Lm1_0">接続設定・ご利用方法</span>
-                   </li>
-                   <li>
-                   <a id="Repeater1_HLm1_1" class="navlink" href="{{ url_for('static' , filename='html/help_iOS_ja.html')}}">
-                   <span class="glyphicon glyphicon-chevron-right"></span>iPhone・iPad</a>
-                   </li>
-                   <li>
-                   <a id="Repeater1_HLm1_2" class="navlink" href="{{ url_for('static' , filename='html/help_android_ja.html')}}">
-                   <span class="glyphicon glyphicon-chevron-right"></span>Android</a>
-                   </li>
-                   <li class="nav-header">
-                   <span id="Repeater1_Lm1_3">ご利用開始について</span>
-                   </li>
-                   <li>
-                   <a id="Repeater1_HLm1_4" class="navlink" href="{{ url_for('static' , filename='html/help_nexentry_ja.html')}}">
-                   <span class="glyphicon glyphicon-chevron-right"></span>利用登録マニュアル</a>
-                   </li>
-                   <li>
-                   <a id="Repeater1_HLm1_5" class="navlink" href="{{ url_for('static' , filename='html/help_nexagreement_ja.html')}}">
-                   <span class="glyphicon glyphicon-chevron-right"></span>利用約款</a>
-                   </li>
-                   <li>
-                   <a id="Repeater1_HLm1_6" class="navlink" href="{{ url_for('static' , filename='html/help_nexattention_ja.html')}}">
-                   <span class="glyphicon glyphicon-chevron-right"></span>ご利用上の注意事項</a>
-                   </li>
-                    <div id="PanelLg">
-                    <li class="divider"></li>
-                    <li class="nav-header">　LANGUAGE<span id="LbLang"> (ja)</span></li>
-                    <li><a id="LkB0" class="navlink" href="javascript:__doPostBack(&#x27;ctl00$LkB0&#x27;,&#x27;&#x27;)">日本語</a></li>
-                    <li><a id="LkB1" class="navlink" href="javascript:__doPostBack(&#x27;ctl00$LkB1&#x27;,&#x27;&#x27;)">ENGLISH</a></li>
-                    <li><a id="LkB3" class="navlink" href="javascript:__doPostBack(&#x27;ctl00$LkB3&#x27;,&#x27;&#x27;)">한국어</a></li>
-                    <li><a id="LkB2" class="navlink" href="javascript:__doPostBack(&#x27;ctl00$LkB2&#x27;,&#x27;&#x27;)">简体中文</a></li>
-                    <li><a id="LkB5" class="navlink" href="javascript:__doPostBack(&#x27;ctl00$LkB5&#x27;,&#x27;&#x27;)">繁體中文</a></li>
-                    <li><a id="LkB4" class="navlink" href="javascript:__doPostBack(&#x27;ctl00$LkB4&#x27;,&#x27;&#x27;)">русский</a></li>
-</div>
-
-    </ul>
-</nav>
-<div id="wrap" style="background-color:#FFFFFF">
-<!--Param -->
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="topnavigation"><!---->
-        <div class="container-fluid header">
-              <img id="ImgBrand" class="navbar-brand Brandimg" src="{{ url_for('static', filename='images/oem124.png') }}" align="top" style="padding-left:0px;">
-              <div class="navbar-header pull-right" style="margin-top:3.5px;">
-                  <a id="nav-expander" style="margin-right:5px;font-size:15px;text-decoration:none;cursor:pointer;">
-                    <img id="ImgUser" class="img-rounded" src="{{ url_for('static', filename='images/UU.png') }}" style="border-style:None;width:38px;">
-                  </a>
-                </div>
-        </div>
-    </div>
-
-    <div style="margin-left:10px;margin-right:2px;margin-top:2px;">
-
-    </div>
-
-    <div class="container-fluid bs-docs-container">
-       <div class="row">
-         <div class="col-lg-12 col-md-12 col-sm-12">
-    <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4">
-     <div class="panel panel-primary form-signin">
-        <div class="panel-heading"><h4>ご利用方法選択</h4></div>
-        <div class="panel-body">
-        <h4>初めてご利用される方</h4>
-            <p class="p1">
-
-            
-            <a id="CPH1_HLbtn2" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/FacebookOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_facebook.png') }}"> FaceBookアカウントで接続</a>
-            <a id="CPH1_HLbtn3" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/TwitterOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_twitter.png') }}"> Twitterアカウントで接続</a>
-            <a id="CPH1_HLbtn4" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/GoogleOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_google.png') }}"> Googleアカウントで接続</a>
-            <a id="CPH1_HLbtn5" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/YahooOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_yahoojp.png') }}"> Yahoo!Japanアカウントで接続</a>
-            <a id="CPH1_HLbtn6" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/MixiOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_mixi.png') }}"> mixiアカウントで接続</a>
-            </p>
-
-            <p class="p1">
-            <a id="CPH1_Lbtn2" class="btn btn-large btn-info btn-block" href="javascript:__doPostBack(&#x27;ctl00$CPH1$Lbtn2&#x27;,&#x27;&#x27;)">メールアドレスで新規登録</a>
-            </p>
-
-            <p class="p1">
+		<div id="wrap" style="background-color:#FFFFFF">
+		<!--Param -->
+			<!-- Fixed navbar -->
+			<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="topnavigation">
+				<div class="container-fluid header">
+					<img id="ImgBrand" class="navbar-brand Brandimg" src="{{ url_for('static', filename='images/oem124.png') }}" align="top" style="padding-left:0px;">
+					<div class="navbar-header pull-right" style="margin-top:3.5px;">
+						<a id="nav-expander" style="margin-right:5px;font-size:15px;text-decoration:none;cursor:pointer;">
+							<img id="ImgUser" class="img-rounded" src="{{ url_for('static', filename='images/UU.png') }}" style="border-style:None;width:38px;">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid bs-docs-container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-4">
+								<div class="panel panel-primary form-signin">
+									<div class="panel-heading">
+										<h4>ご利用方法選択</h4>
+									</div>
+									<div class="panel-body">
+										<h4>初めてご利用される方</h4>
+										<p class="p1">
+											<a id="CPH1_HLbtn2" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/FacebookOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_facebook.png') }}"> FaceBookアカウントで接続</a>
+											<a id="CPH1_HLbtn3" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/TwitterOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_twitter.png') }}"> Twitterアカウントで接続</a>
+											<a id="CPH1_HLbtn4" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/GoogleOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_google.png') }}"> Googleアカウントで接続</a>
+											<a id="CPH1_HLbtn5" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/YahooOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_yahoojp.png') }}"> Yahoo!Japanアカウントで接続</a>
+											<a id="CPH1_HLbtn6" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/MixiOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_mixi.png') }}"> mixiアカウントで接続</a>
+										</p>
+										<p class="p1">
+											<a id="CPH1_Lbtn2" class="btn btn-large btn-info btn-block" href="javascript:__doPostBack(&#x27;ctl00$CPH1$Lbtn2&#x27;,&#x27;&#x27;)">メールアドレスで新規登録</a>
+										</p>
+										<p class="p1">
 											<a id="CPH1_PolicyLink" href="{{ url_for('static' , filename='html/help_nexagreement_ja.html')}}">privacy policy</a>
-            </p>
+										</p>
+										<hr>
+										<h4>登録済みの方</h4>
+										<h5 style="color:#b27345">（端末を変更された場合もこちらから）</h5>
+										<input name="login" type="email" id="CPH1_Tmail" class="input-block-level form-control" placeholder="Email address">
+										<input name="password" type="password" id="CPH1_Tpass" class="input-block-level form-control" placeholder="Password">
+										<a id="CPH1_Lbtn3" class="btn btn-large btn-default btn-block" href="javascript:__doPostBack(&#x27;ctl00$CPH1$Lbtn3&#x27;,&#x27;&#x27;)">メールアドレスでログイン</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-         <hr>
+		<div id="UProgress" style="display:none;" role="status" aria-hidden="true">
+			<div style="bottom:50px;left:5px">
+				<img id="Image1" src="{{ url_for('static', filename='images/ajax-loader.gif') }}">
+			</div>
+		</div>
+		<p style="margin-top: 20px; display: none;" class="pull-right" id="back-top">
+			<a style="color:#1ABC9C;font-size:24px"><span class="glyphicon glyphicon-chevron-up"></span></a>
+		</p>
 
-         <h4>登録済みの方</h4>
-         <h5 style="color:#b27345">（端末を変更された場合もこちらから）</h5>
-            <input name="login" type="email" id="CPH1_Tmail" class="input-block-level form-control" placeholder="Email address">
-            <input name="password" type="password" id="CPH1_Tpass" class="input-block-level form-control" placeholder="Password">
+		<div id="PanelFooter">
+			<div id="footer">
+				<div class="container-fluid">
+					<p style="margin-top:20px;">Brand by <span id="LbBrand">株式会社UN</span></p>
+				</div>
+			</div>
+		</div>
 
-            <a id="CPH1_Lbtn3" class="btn btn-large btn-default btn-block" href="javascript:__doPostBack(&#x27;ctl00$CPH1$Lbtn3&#x27;,&#x27;&#x27;)">メールアドレスでログイン</a>
+		<script src="{{ url_for('static', filename='js/jquery-1.10.2.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.navgoco.min.js') }}"></script>
+		<script>$(document).ready(function (){$('#nav-expander').on('click', function (e){e.preventDefault();$('body').toggleClass('nav-expanded')});$('#nav-close').on('click', function (e){e.preventDefault();$('body').removeClass('nav-expanded')});// Initialize navgoco with default options$(".main-menu").navgoco({caret:'<span class="caret"></span>',accordion:false,openClass:'open',save:true,cookie:{name:'navgoco',expires:false,path:'/'},slide:{duration:300,easing:'swing'}})});</script>
+		<script type="text/javascript">function pageLoad(){var mng=Sys.WebForms.PageRequestManager.getInstance();mng.add_initializeRequest( function (sender, args){ if (mng.get_isInAsyncPostBack()){ args.set_cancel(true)}})}</script>
+		<script type="text/javascript">$(document).ready(function (){ $("#back-top").hide(); $(window).scroll(function (){ if ($(this).scrollTop() >250){ $('#back-top').fadeIn()} else{ $('#back-top').fadeOut()}}); $('#back-top a').click(function (){ $('body,html').animate({ scrollTop:0}, 800); return false})});</script>
+		<script type="text/javascript">
+		//<![CDATA[
+			Sys.Application.add_init(function (){$create(Sys.UI._UpdateProgress,{ "associatedUpdatePanelId":null, "displayAfter":500, "dynamicLayout":true}, null, null, $get("UProgress"))});
+		//]]>
+		</script>
+	</form>
+</body>
 
-            <br>
-            <a id="CPH1_HyperLink1" href="https://www.uspot.jp/login/renew.aspx?dir=us">パスワードをお忘れですか？</a>
-        </div>
-     </div>
-    </div>
-    </div>
-
-          </div>
-        </div>
-    </div>
-</div>
-<div id="UProgress" style="display:none;" role="status" aria-hidden="true">
-<div style="bottom:50px;left:5px">
-<img id="Image1" src="{{ url_for('static', filename='images/ajax-loader.gif') }}">
-</div>
-
-</div>
-<p>
-
-</p>
-<p style="margin-top: 20px; display: none;" class="pull-right" id="back-top"><a href="https://www.uspot.jp/user/select.aspx?comm=&amp;loc=f&amp;unitname=679237_001&amp;inf=wlan0&amp;mac=08f69c979e13&amp;mode=0&amp;mkk=0&amp;red=0#top" style="color:#1ABC9C;font-size:24px"><span class="glyphicon glyphicon-chevron-up"></span></a></p>
-
-       <div id="PanelFooter">
-       <div id="footer">
-          <div class="container-fluid">
-
-            <!-- <p style="margin-top:20px;"><img src="{{ url_for('static', filename='images/icon-s-free.gif') }}" style="vertical-align:text-top"> <span id="LbFree"><a dir="ltr" href="tel:0120-773-713" x-apple-data-detectors="true" x-apple-data-detectors-type="telephone" x-apple-data-detectors-result="0">0120-773-713</a></span></p> -->
-            <p style="margin-top:20px;"><a id="HLBrand" href="http://www.un.com">Brand by <span id="LbBrand">株式会社UN</span></a></p>
-
-          </div>
-        </div>
-
-</div>
-
-       <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Comment</h4>
-              </div>
-              <div class="modal-body">
-                    <p>
-                        コメントを書いて下さい
-                    </p>
-                    <p>
-                        <textarea name="ctl00$TextBox1" rows="2" cols="20" id="TextBox1" class="form-control" placeholder="コメントを書いて下さい / Try URL of Youtube. " style="height:100px;width:90%;"></textarea>
-                    </p>
-                    <p>
-                        </p><div class="file">
-                        写真/Photo：<input type="file" name="ctl00$FileUpload1" id="FileUpload1">
-                        </div>
-                    <p></p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <input type="submit" name="ctl00$Btn3010" value="Save!" id="Btn3010" class="btn btn-primary">
-              </div>
-            </div>
-          </div>
-        </div>
-    <script src="{{ url_for('static', filename='js/jquery-1.10.2.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/jquery.navgoco.min.js') }}"></script>
-    <script>
-        $(document).ready(function () {
-            $('#nav-expander').on('click', function (e) {
-                e.preventDefault();
-                $('body').toggleClass('nav-expanded');
-            });
-            $('#nav-close').on('click', function (e) {
-                e.preventDefault();
-                $('body').removeClass('nav-expanded');
-            });
-
-            // Initialize navgoco with default options
-            $(".main-menu").navgoco({
-                caret: '<span class="caret"></span>',
-                accordion: false,
-                openClass: 'open',
-                save: true,
-                cookie: {
-                    name: 'navgoco',
-                    expires: false,
-                    path: '/'
-                },
-                slide: {
-                    duration: 300,
-                    easing: 'swing'
-                }
-            });
-        });
-    </script>
-    <script type="text/javascript">
-
-        function pageLoad() {
-            var mng = Sys.WebForms.PageRequestManager.getInstance();
-            mng.add_initializeRequest(
-              function (sender, args) {
-                  if (mng.get_isInAsyncPostBack()) {
-                      args.set_cancel(true);
-                  }
-              }
-            );
-        }
-    </script>
-      <script type="text/javascript">
-          $(document).ready(function () {
-              $("#back-top").hide();
-              $(window).scroll(function () {
-                  if ($(this).scrollTop() > 250) {
-                      $('#back-top').fadeIn();
-                  } else {
-                      $('#back-top').fadeOut();
-                  }
-              });
-              $('#back-top a').click(function () {
-                  $('body,html').animate({
-                      scrollTop: 0
-                  }, 800);
-                  return false;
-              });
-          });
-    </script>
-
-<script type="text/javascript">
-//<![CDATA[
-Sys.Application.add_init(function() {
-    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":500,"dynamicLayout":true}, null, null, $get("UProgress"));
-});
-//]]>
-</script>
-</form>
-</body></html>
+</html>
