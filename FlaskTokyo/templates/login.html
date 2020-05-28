@@ -153,8 +153,7 @@
 
 		<script src="{{ url_for('static', filename='js/jquery-1.10.2.min.js') }}"></script>
 		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/jquery.navgoco.min.js') }}"></script>
-		<script>$(document).ready(function (){$('#nav-expander').on('click', function (e){e.preventDefault();$('body').toggleClass('nav-expanded')});$('#nav-close').on('click', function (e){e.preventDefault();$('body').removeClass('nav-expanded')});$(".main-menu").navgoco({caret:'<span class="caret"></span>',accordion:false,openClass:'open',save:true,cookie:{name:'navgoco',expires:false,path:'/'},slide:{duration:300,easing:'swing'}})});</script>
+		<script>$(document).ready(function (){$('#nav-expander').on('click', function (e){e.preventDefault();$('body').toggleClass('nav-expanded')});$('#nav-close').on('click', function (e){e.preventDefault();$('body').removeClass('nav-expanded')});});</script>
 		<script type="text/javascript">function pageLoad(){var mng=Sys.WebForms.PageRequestManager.getInstance();mng.add_initializeRequest( function (sender, args){ if (mng.get_isInAsyncPostBack()){ args.set_cancel(true)}})}</script>
 		<script type="text/javascript">$(document).ready(function (){ $("#back-top").hide(); $(window).scroll(function (){ if ($(this).scrollTop() >250){ $('#back-top').fadeIn()} else{ $('#back-top').fadeOut()}}); $('#back-top a').click(function (){ $('body,html').animate({ scrollTop:0}, 800); return false})});</script>
 		<script type="text/javascript">
