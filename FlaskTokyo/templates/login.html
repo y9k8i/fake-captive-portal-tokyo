@@ -128,17 +128,31 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'form1', [], [], [], 
         <div class="panel-body">
         <h4>初めてご利用される方</h4>
             <p class="p1">
-
-            
-            <a id="CPH1_HLbtn2" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/FacebookOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_facebook.png') }}"> FaceBookアカウントで接続</a>
-            <a id="CPH1_HLbtn3" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/TwitterOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_twitter.png') }}"> Twitterアカウントで接続</a>
-            <a id="CPH1_HLbtn4" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/GoogleOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_google.png') }}"> Googleアカウントで接続</a>
-            <a id="CPH1_HLbtn5" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/YahooOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_yahoojp.png') }}"> Yahoo!Japanアカウントで接続</a>
-            <a id="CPH1_HLbtn6" class="btn btn-large btn-primary btn-block" href="{{ url_for('static', filename='html/MixiOAuth.html') }}"><img src="{{ url_for('static', filename='images/white_mixi.png') }}"> mixiアカウントで接続</a>
-            </p>
-
-            <p class="p1">
-            <a id="CPH1_Lbtn2" class="btn btn-large btn-info btn-block" href="javascript:__doPostBack(&#x27;ctl00$CPH1$Lbtn2&#x27;,&#x27;&#x27;)">メールアドレスで新規登録</a>
+											<a id="CPH1_HLbtn2" class="btn btn-large btn-primary btn-block"
+												href="{{ url_for('static', filename='FacebookOAuth/Facebook_login.html') }}"><img
+													src="{{ url_for('static', filename='images/white_facebook.png') }}">
+												FaceBookアカウントで接続
+											</a>
+											<a id="CPH1_HLbtn3" class="btn btn-large btn-primary btn-block"
+												href="{{ url_for('static', filename='html/TwitterOAuth.html') }}"><img
+													src="{{ url_for('static', filename='images/white_twitter.png') }}">
+												Twitterアカウントで接続
+											</a>
+											<a id="CPH1_HLbtn4" class="btn btn-large btn-primary btn-block"
+												href="{{ url_for('static', filename='html/GoogleOAuth.html') }}"><img
+													src="{{ url_for('static', filename='images/white_google.png') }}">
+												Googleアカウントで接続
+											</a>
+											<a id="CPH1_HLbtn5" class="btn btn-large btn-primary btn-block"
+												href="{{ url_for('static', filename='YahooOAuth/Yahoo_login.html') }}"><img
+													src="{{ url_for('static', filename='images/white_yahoojp.png') }}">
+												Yahoo!Japanアカウントで接続
+											</a>
+											<a id="CPH1_HLbtn6" class="btn btn-large btn-primary btn-block"
+												href="{{ url_for('static', filename='html/mixiOAuth/mixi_login.html') }}"><img
+													src="{{ url_for('static', filename='images/white_mixi.png') }}">
+												mixiアカウントで接続
+											</a>
             </p>
 
             <p class="p1">
