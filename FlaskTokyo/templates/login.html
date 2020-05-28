@@ -4,7 +4,6 @@
 
 <head id="Head1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-	<meta name="apple-mobile-webapp-capable" content="yes">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>ご利用方法選択</title>
 	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
@@ -15,8 +14,6 @@
 	<style>.navlink{display:block}.Brandimg{max-height:100%}</style>
 	<style type="text/css">.form-signin{max-width:360px;display:block;margin-left:auto;margin-right:auto;margin-top:30px}.p1{margin-top:20px;margin-bottom:20px}</style>
 	<link href="{{ url_for('static', filename='css/uspot.jp.css') }}" rel="stylesheet" type="text.css">
-	<link rel="SHORTCUT ICON" href="https://www.uspot.jp/img/oem/124/124.ico">
-	<link rel="apple-touch-icon" href="https://www.uspot.jp/img/oem/124/u124_114.gif">
 	<meta name="robots" content="noindex">
 </head>
 
@@ -125,9 +122,6 @@
 											</a>
 										</p>
 										<p class="p1">
-											<a id="CPH1_Lbtn2" class="btn btn-large btn-info btn-block" href="javascript:__doPostBack(&#x27;ctl00$CPH1$Lbtn2&#x27;,&#x27;&#x27;)">メールアドレスで新規登録</a>
-										</p>
-										<p class="p1">
 											<a id="CPH1_PolicyLink" href="{{ url_for('static' , filename='html/help_nexagreement_ja.html')}}">privacy policy</a>
 										</p>
 										<hr>
@@ -145,11 +139,6 @@
 			</div>
 		</div>
 
-		<div id="UProgress" style="display:none;" role="status" aria-hidden="true">
-			<div style="bottom:50px;left:5px">
-				<img id="Image1" src="{{ url_for('static', filename='images/ajax-loader.gif') }}">
-			</div>
-		</div>
 		<p style="margin-top: 20px; display: none;" class="pull-right" id="back-top">
 			<a style="color:#1ABC9C;font-size:24px"><span class="glyphicon glyphicon-chevron-up"></span></a>
 		</p>
