@@ -1,5 +1,5 @@
-# Created by https://www.gitignore.io/api/git,flask,windows,macos
-# Edit at https://www.gitignore.io/?templates=git,flask,windows,macos
+# Created by https://www.gitignore.io/api/git,macos,flask,windows,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=git,macos,flask,windows,visualstudiocode
 
 ### Flask ###
 instance/*
@@ -154,6 +154,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### VisualStudioCode ###
+*/.vscode/*
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -180,4 +187,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/git,flask,windows,macos
+# End of https://www.gitignore.io/api/git,macos,flask,windows,visualstudiocode

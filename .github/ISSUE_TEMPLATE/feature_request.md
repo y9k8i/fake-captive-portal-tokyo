@@ -1,7 +1,6 @@
 ---
 name: Feature request
 about: 新しい機能を追加したい場合
-title: "[機能追加] "
 labels: enhancement
 assignees: ''
 

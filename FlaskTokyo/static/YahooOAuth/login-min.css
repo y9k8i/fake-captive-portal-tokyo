@@ -1,0 +1,748 @@
+blockquote{margin:0px;padding:0px}
+body{margin:0px;padding:0px}
+dd{margin:0px;padding:0px}
+div{margin:0px;padding:0px}
+dl{margin:0px;padding:0px}
+dt{margin:0px;padding:0px}
+fieldset{margin:0px;padding:0px}
+form{margin:0px;padding:0px}
+h1{margin:0px;padding:0px}
+h2{margin:0px;padding:0px}
+h3{margin:0px;padding:0px}
+h4{margin:0px;padding:0px}
+h5{margin:0px;padding:0px}
+h6{margin:0px;padding:0px}
+input{margin:0px;padding:0px}
+li{margin:0px;padding:0px}
+ol{margin:0px;padding:0px}
+p{margin:0px;padding:0px}
+pre{margin:0px;padding:0px}
+ul{margin:0px;padding:0px}
+h1{font-size:100%;font-weight:400}
+h2{font-size:100%;font-weight:400}
+h3{font-size:100%;font-weight:400}
+h4{font-size:100%;font-weight:400}
+h5{font-size:100%;font-weight:400}
+h6{font-size:100%;font-weight:400}
+ol li{list-style:none}
+ul li{list-style:none}
+table{margin:0px;padding:0px;font-size:100%}
+caption{text-align:left}
+code{font-size:100%}
+del{font-size:100%}
+ins{font-size:100%}
+kbd{font-size:100%}
+pre{font-size:100%}
+samp{font-size:100%}
+select{font-size:100%}
+table{font-size:100%}
+textarea{font-size:100%}
+var{font-size:100%}
+address{font-style:normal;font-weight:400}
+cite{font-style:normal;font-weight:400}
+del{font-style:normal;font-weight:400}
+dfn{font-style:normal;font-weight:400}
+em{font-style:normal;font-weight:400}
+ins{font-style:normal;font-weight:400}
+samp{font-style:normal;font-weight:400}
+strong{font-style:normal;font-weight:400}
+th{font-style:normal;font-weight:400}
+var{font-style:normal;font-weight:400}
+a img{border:0px currentColor;border-image:none}
+hr.separation{display:none}
+fieldset{border:currentColor;border-image:none}
+article{display:block}
+aside{display:block}
+footer{display:block}
+header{display:block}
+nav{display:block}
+section{display:block}
+legend{display:none}
+abbr{border:0px currentColor;border-image:none;text-decoration:none}
+acronym{border:0px currentColor;border-image:none;text-decoration:none}
+label{font-weight:400;cursor:pointer}
+body{color:rgb(51,51,51);font-family:-apple-system,Hiragino Sans,Sans-Serif;-webkit-text-size-adjust:none}
+a{color:rgb(0,102,255);text-decoration:none;-webkit-tap-highlight-color:rgba(102,204,255,.5)}
+.table{width:100%;display:table}
+.tablecell{vertical-align:top;display:table-cell}
+.clearfix::after{clear:both;display:block;content:""}
+.dispNone{display:none}
+.heightNone{height:0px;overflow:hidden}
+.noclick{pointer-events:none}
+.alert{padding:6px;border-radius:4px;text-align:center;font-size:14px;background-color:rgb(255,245,224)}
+.trouble{padding:6px;border-radius:4px;text-align:center;font-size:14px;background-color:rgb(255,245,224)}
+.warn{padding:6px;border-radius:4px;text-align:center;font-size:14px;background-color:rgb(255,245,224)}
+.alert{color:rgb(230,0,19);font-weight:700}
+.trouble{color:rgb(230,0,19);font-weight:700}
+.warn{font-weight:700}
+.warn .warnIco{padding-left:22px;background-image:url("https://s.yimg.jp/images/login/pc/img/login/1.0.0/ico_warn.png");background-repeat:no-repeat}
+.btnClearWrp{position:relative}
+input[type=email].btnClearShow{padding-right:42px}
+input[type=password].btnClearShow{padding-right:42px}
+input[type=tel].btnClearShow{padding-right:42px}
+input[type=text].btnClearShow{padding-right:42px}
+.btnClear{background:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/btn_clear.png") no-repeat 5px 5px / 20px 20px;top:8px;width:30px;height:30px;right:10px;text-indent:100%;overflow:hidden;display:none;white-space:nowrap;position:absolute;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-user-select:none;-webkit-touch-callout:none}
+.btnSubmit{background:rgb(67,116,251);border-radius:3px;border:1px solid rgb(67,116,251);border-image:none;text-align:center;line-height:1;margin-top:10px;box-shadow:0px 2px 0px rgba(0,0,0,0.1)}
+.btnSubmit:hover{background:rgb(63,109,235);color:rgb(176,191,245);border-top-color:rgb(63,109,235);border-top-width:1px;border-top-style:solid}
+.btnSubmit a{background:none;border-width:1px medium medium;border-style:solid none none;border-color:rgb(95,137,251) currentColor currentColor;margin:0px auto;padding:12px 0px;border-radius:3px;border-image:none;width:100%;height:auto;color:rgb(255,255,255);line-height:1;font-size:18px;font-weight:700;text-decoration:none;display:block;position:relative;cursor:pointer;box-sizing:border-box;box-shadow:0px 2px 0px rgba(0,0,0,0.1)}
+.btnSubmit button{background:none;border-width:1px medium medium;border-style:solid none none;border-color:rgb(95,137,251) currentColor currentColor;margin:0px auto;padding:12px 0px;border-radius:3px;border-image:none;width:100%;height:auto;color:rgb(255,255,255);line-height:1;font-size:18px;font-weight:700;text-decoration:none;display:block;position:relative;cursor:pointer;box-sizing:border-box;box-shadow:0px 2px 0px rgba(0,0,0,0.1)}
+.btnSubmit a:hover{text-decoration:none}
+.btnSubmit button:disabled{background:rgb(63,109,235);color:rgb(176,191,245);border-top-color:rgb(63,109,235);border-top-width:1px;border-top-style:solid}
+.btnSubmit .btnLoading{display:inline-block}
+.btnSubmit .btnLoading span{text-indent:100%;overflow:hidden;display:block;white-space:nowrap}
+.btnSubmit .btnLoading::after{animation:loading 1s infinite;left:50%;top:50%;width:26px;height:26px;margin-top:-15px;margin-left:-15px;position:absolute;content:"";background-image:url("https://s.yimg.jp/images/login/sp/img/login/1.0.0/loading.png");background-repeat:no-repeat;background-size:26px 26px;-webkit-animation:loading 1s ease infinite}
+a.button{background:rgb(255,255,255);padding:12px 0px;border-radius:3px;border:1px solid rgb(67,116,251);border-image:none;width:100%;text-align:center;color:rgb(67,116,251);line-height:1;font-size:15px;text-decoration:none;display:block;box-shadow:0px 2px 0px rgba(0,0,0,0.1)}
+button.button{background:rgb(255,255,255);padding:12px 0px;border-radius:3px;border:1px solid rgb(67,116,251);border-image:none;width:100%;text-align:center;color:rgb(67,116,251);line-height:1;font-size:15px;text-decoration:none;display:block;box-shadow:0px 2px 0px rgba(0,0,0,0.1)}
+a.button:hover{background:rgb(242,246,252);text-decoration:none}
+button.button:hover{background:rgb(242,246,252);text-decoration:none}
+a.button.disabled{border-color:rgb(177,177,177);color:rgb(153,153,153);background-color:rgb(242,242,242)}
+button:disabled.button{border-color:rgb(177,177,177);color:rgb(153,153,153);background-color:rgb(242,242,242)}
+.captchaArea p{background:rgb(255,244,184);margin:10px 0px;padding:10px;line-height:1.4;font-size:13px}
+.captchaImg{background:rgb(255,255,255);margin:10px 0px;border:1px solid rgb(204,204,204);border-image:none;text-align:center;overflow:hidden}
+.captchaImg img{vertical-align:bottom}
+input[type=email]{border-width:1px;border-style:solid;border-color:rgb(153,153,153) rgb(187,187,187) rgb(187,187,187) rgb(153,153,153);padding:1px 6px;border-radius:3px;width:100%;height:47px;line-height:1.2;font-size:16px;box-sizing:border-box}
+input[type=password]{border-width:1px;border-style:solid;border-color:rgb(153,153,153) rgb(187,187,187) rgb(187,187,187) rgb(153,153,153);padding:1px 6px;border-radius:3px;width:100%;height:47px;line-height:1.2;font-size:16px;box-sizing:border-box}
+input[type=tel]{border-width:1px;border-style:solid;border-color:rgb(153,153,153) rgb(187,187,187) rgb(187,187,187) rgb(153,153,153);padding:1px 6px;border-radius:3px;width:100%;height:47px;line-height:1.2;font-size:16px;box-sizing:border-box}
+input[type=text]{border-width:1px;border-style:solid;border-color:rgb(153,153,153) rgb(187,187,187) rgb(187,187,187) rgb(153,153,153);padding:1px 6px;border-radius:3px;width:100%;height:47px;line-height:1.2;font-size:16px;box-sizing:border-box}
+input[type=email]:hover{box-shadow:inset 0px 2px 2px rgba(0,0,0,0.1)}
+input[type=password]:hover{box-shadow:inset 0px 2px 2px rgba(0,0,0,0.1)}
+input[type=tel]:hover{box-shadow:inset 0px 2px 2px rgba(0,0,0,0.1)}
+input[type=text]:hover{box-shadow:inset 0px 2px 2px rgba(0,0,0,0.1)}
+input[type=email]:focus{border:1px solid rgb(63,111,255);border-image:none}
+input[type=password]:focus{border:1px solid rgb(63,111,255);border-image:none}
+input[type=tel]:focus{border:1px solid rgb(63,111,255);border-image:none}
+input[type=text]:focus{border:1px solid rgb(63,111,255);border-image:none}
+input[type=email].err{border:1px solid rgb(230,0,19);border-image:none}
+input[type=password].err{border:1px solid rgb(230,0,19);border-image:none}
+input[type=tel].err{border:1px solid rgb(230,0,19);border-image:none}
+input[type=text].err{border:1px solid rgb(230,0,19);border-image:none}
+input::-ms-clear{width:0px;visibility:hidden}
+input[type=email]{-ms-ime-mode:inactive}
+input[type=text]{-ms-ime-mode:inactive}
+.errMsg{margin:5px 0px;color:rgb(230,0,19);line-height:1.2;font-size:14px;position:relative}
+.switchAuthModalBtnWrap{margin:24px 16px}
+.switchAuthModalBtnWrap ul li{margin-top:16px}
+.switchAuthModalBtnWrap .btnSubmit a{font-size:14px}
+.switchAuthModalBtnWrap a.button{font-size:14px}
+.swkErrorModalAltMethodWrap{margin:16px 16px 24px;text-align:center;font-size:15px}
+.placeholderWrp{position:relative}
+.placeholder{left:0px;top:0px;height:46px;color:rgb(170,170,170);line-height:47px;padding-left:11px;font-size:95%;display:none;white-space:nowrap;position:absolute;z-index:1;cursor:text}
+.placeholder.show{display:block}
+.loadingLayer{transition:opacity 0.3s,visibility 0s 0.3s;left:0px;top:0px;width:100%;height:100%;text-indent:100%;overflow:hidden;white-space:nowrap;visibility:hidden;position:absolute;z-index:9000000;opacity:0;background-color:rgb(0,0,0)}
+.loadingLayer.show{visibility:visible;opacity:0.3;transition-delay:0s}
+.loadingLayer::after{background-position:50% 50%;animation:loading 1s infinite;left:50%;top:50%;width:30px;height:30px;margin-top:-15px;margin-left:-15px;position:absolute;content:"";background-image:url("https://s.yimg.jp/images/login/sp/img/login/1.0.0/loading.png");background-repeat:no-repeat;background-size:30px 30px;-webkit-animation:loading 1s ease infinite}
+#linksTheme{margin:0px 0px 8px;text-align:right}
+#linksTheme li{height:22px;position:relative}
+#openTheme{background-position:0px 0px;border:1px solid transparent;border-image:none;width:54px;height:20px;right:0px;line-height:1;text-indent:100%;overflow:hidden;display:block;white-space:nowrap;position:absolute;background-image:url("https://s.yimg.jp/images/login/pc/img/login/1.0.0/theme_btn_2x.png");background-repeat:no-repeat;background-size:54px 20px}
+.c01 #openTheme{border:1px solid rgb(221,221,221);border-image:none}
+.yregertxt{background:hsla(0,0%,100%,0.7);padding:4px}
+#themeArea{margin:0px;top:0px;z-index:-2}
+#bgLayer{left:0px;right:0px;bottom:0px;display:block;position:absolute}
+#themeArea{left:0px;right:0px;bottom:0px;display:block;position:absolute}
+#bgLayer{top:100px;z-index:-1;opacity:0.9;background-color:rgb(255,255,255)}
+#bgGradLayer{left:0px;top:0px;height:100px;right:0px;display:block;position:absolute;z-index:-1;background-image:linear-gradient(180deg,hsla(0,0%,100%,0.1),hsla(0,0%,100%,0.9))}
+.themeBtnClose{top:-26px;width:28px;height:28px;right:-24px;position:absolute;z-index:9999;cursor:pointer;background-image:url("https://s.yimg.jp/images/login/pc/img/login/1.0.0/theme_ico_close_2x.png");background-size:26px 26px}
+.icoPlus{background-position:0px 0px;text-indent:100%;overflow:hidden;white-space:nowrap;background-repeat:no-repeat}
+.themeBtnClose{background-position:0px 0px;text-indent:100%;overflow:hidden;white-space:nowrap;background-repeat:no-repeat}
+.icoPlus{margin:0px auto 8px;width:24px;height:24px;background-image:url("https://s.yimg.jp/images/login/pc/img/login/1.0.0/theme_ico_plus_2x.png");background-size:24px 24px}
+#themeSettingBg{display:none}
+.show#themeSettingBg{background:hsla(0,0%,100%,0);left:0px;top:0px;width:100%;right:0px;bottom:0px;display:block;position:absolute;z-index:9}
+#panelSetTheme{background:rgb(255,255,255);padding:16px 12px;left:50%;width:436px;bottom:40px;margin-left:-230px;display:none;position:absolute;z-index:999;pointer-events:auto;box-shadow:1px 1px 4px rgba(0,0,0,0.4)}
+.wall #panelSetTheme{top:30%}
+.loading#panelSetTheme{background:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/ico_loading48.gif") no-repeat 210px 110px rgb(255,255,255)}
+.loading#panelSetTheme #loadingMsg{width:100%;position:relative}
+.loading#panelSetTheme #loadingMsg .text{left:198px;top:-130px;color:rgb(153,153,153);position:absolute}
+#panelSetTheme h2{display:none}
+#panelSetTheme .helpLink{margin:1.4em 6px 0px 0px;font-size:14px;float:right}
+.open#panelSetTheme{display:block}
+#panelSetTheme .wrp{margin:0px;position:relative;animation-duration:0.8s;animation-fill-mode:both;-webkit-animation-fill-mode:both;-webkit-animation-duration:.8s}
+.open#panelSetTheme .wrp{visibility:visible;animation-name:fadeIn;-webkit-animation-name:fadeIn}
+.loading#panelSetTheme .wrp{visibility:hidden}
+#panelSetTheme h3{line-height:1.2;padding-left:5px;font-size:1em;font-weight:400;margin-bottom:10px;border-left-color:rgb(204,204,204);border-left-width:4px;border-left-style:solid;float:left}
+#panelSetTheme .options div{padding:1px;border:3px solid rgb(255,255,255);border-image:none;width:37px;margin-bottom:4px;margin-left:3px;float:left}
+#panelSetTheme .options span{display:block;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+#color{clear:both;margin-bottom:4px}
+#texture{clear:both;margin-bottom:4px}
+#panelSetTheme #color span{width:37px;height:25px}
+#panelSetTheme #texture span{border:1px solid rgb(153,153,153);border-image:none;width:35px;height:23px}
+#panelSetTheme .options .active{border:3px solid rgb(128,147,179);border-image:none}
+.item{cursor:pointer}
+.item.active{cursor:default}
+.themeBtnWrap{margin:0px auto;width:220px}
+.themeBtn{margin:0px auto;border:1px solid rgb(187,187,187);border-image:none;width:100px;height:36px;text-align:center;color:rgb(0,0,0);line-height:36px;font-size:16px;display:block;background-image:linear-gradient(180deg,rgb(255,255,255),rgb(238,238,238));background-color:rgb(238,238,238)}
+.disabled#btnSave{color:rgb(170,170,170);cursor:default}
+#texture span{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items.png");background-repeat:no-repeat;background-size:35px 1723px;background-color:rgb(255,255,255)}
+#texture .options #t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items12.png");background-size:35px 423px}
+#texture .options #t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items12.png");background-size:35px 423px}
+#texture .options #t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items12.png");background-size:35px 423px}
+#texture .options #t59{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items12.png");background-size:35px 423px}
+#texture .options #t60{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items12.png");background-size:35px 423px}
+#texture .options #t61{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items12.png");background-size:35px 423px}
+#texture .options #t63{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items12.png");background-size:35px 423px}
+#texture .options #t64{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items12.png");background-size:35px 423px}
+#texture .options #t65{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/items12.png");background-size:35px 423px}
+.options #c01{border:1px solid rgb(153,153,153);border-image:none;background-color:rgb(249,249,249)}
+#panelSetTheme #color span#c01{width:35px;height:23px}
+.options #c02{background-color:rgb(172,194,200)}
+.options #c03{background-color:rgb(102,102,102)}
+.options #c04{background-color:rgb(0,0,0)}
+.options #c05{background-color:rgb(102,51,0)}
+.options #c06{background-color:rgb(0,32,96)}
+.options #c07{background-color:rgb(192,0,0)}
+.options #c08{background-color:rgb(255,102,102)}
+.options #c09{background-color:rgb(246,155,0)}
+.options #c10{background-color:rgb(22,145,78)}
+.options #c11{background-color:rgb(0,112,192)}
+.options #c12{background-color:rgb(112,48,160)}
+.options #c13{background-color:rgb(255,210,207)}
+.options #c14{background-color:rgb(241,236,97)}
+.options #c15{background-color:rgb(181,246,137)}
+.options #c16{background-color:rgb(177,234,250)}
+.options #c17{background-color:rgb(177,88,77)}
+.options #c18{background-color:rgb(176,188,92)}
+.options #c19{background-color:rgb(88,150,157)}
+.options #c20{background-color:rgb(136,136,215)}
+.options #c21{background-color:rgb(90,31,49)}
+.options #c22{background-color:rgb(61,55,2)}
+.options #c23{background-color:rgb(9,57,15)}
+.options #c24{background-color:rgb(49,16,74)}
+.options #t01{background:rgb(255,255,255)}
+.options #t02{background-position:0px 0px}
+.options #t03{background-position:0px -50px}
+.options #t04{background-position:0px -100px}
+.options #t39{background-position:0px -150px}
+.options #t06{background-position:0px -200px}
+.options #t07{background-position:0px -250px}
+.options #t08{background-position:0px -300px}
+.options #t09{background-position:0px -350px}
+.options #t10{background-position:0px -400px}
+.options #t40{background-position:0px -450px}
+.options #t41{background-position:0px -500px}
+.options #t15{background-position:0px -550px}
+.options #t16{background-position:0px -600px}
+.options #t42{background-position:0px -650px}
+.options #t18{background-position:0px -700px}
+.options #t43{background-position:0px -750px}
+.options #t20{background-position:0px -800px}
+.options #t21{background-position:0px -850px}
+.options #t44{background-position:0px -900px}
+.options #t23{background-position:0px -950px}
+.options #t24{background-position:0px -1000px}
+.options #t25{background-position:0px -1050px}
+.options #t26{background-position:0px -1100px}
+.options #t27{background-position:0px -1150px}
+.options #t28{background-position:0px -1200px}
+.options #t45{background-position:0px -1250px}
+.options #t30{background-position:0px -1300px}
+.options #t46{background-position:0px -1350px}
+.options #t47{background-position:0px -1400px}
+.options #t48{background-position:0px -1450px}
+.options #t49{background-position:0px -1500px}
+.options #t50{background-position:0px -1550px}
+.options #t36{background-position:0px -1600px}
+.options #t37{background-position:0px -1650px}
+.options #t38{background-position:0px -1700px}
+.options #t64{background-position:0px 0px}
+.options #t31{background-position:0px -50px}
+.options #t14{background-position:0px -100px}
+.options #t65{background-position:0px -150px}
+.options #t35{background-position:0px -200px}
+.options #t59{background-position:0px -250px}
+.options #t60{background-position:0px -300px}
+.options #t61{background-position:0px -350px}
+.options #t63{background-position:0px -400px}
+.c01{background-color:rgb(249,249,249)}
+.c02{background-color:rgb(172,194,200)}
+.c03{background-color:rgb(102,102,102)}
+.c04{background-color:rgb(0,0,0)}
+.c05{background-color:rgb(102,51,0)}
+.c06{background-color:rgb(0,32,96)}
+.c07{background-color:rgb(192,0,0)}
+.c08{background-color:rgb(255,102,102)}
+.c09{background-color:rgb(246,155,0)}
+.c10{background-color:rgb(22,145,78)}
+.c11{background-color:rgb(0,112,192)}
+.c12{background-color:rgb(112,48,160)}
+.c13{background-color:rgb(255,210,207)}
+.c14{background-color:rgb(241,236,97)}
+.c15{background-color:rgb(181,246,137)}
+.c16{background-color:rgb(177,234,250)}
+.c17{background-color:rgb(177,88,77)}
+.c18{background-color:rgb(176,188,92)}
+.c19{background-color:rgb(88,150,157)}
+.c20{background-color:rgb(136,136,215)}
+.c21{background-color:rgb(90,31,49)}
+.c22{background-color:rgb(61,55,2)}
+.c23{background-color:rgb(9,57,15)}
+.c24{background-color:rgb(49,16,74)}
+.c01bd{border-color:rgb(187,187,187)}
+.c02bd{border-color:rgb(172,194,200)}
+.c03bd{border-color:rgb(102,102,102)}
+.c04bd{border-color:rgb(0,0,0)}
+.c05bd{border-color:rgb(102,51,0)}
+.c06bd{border-color:rgb(0,32,96)}
+.c07bd{border-color:rgb(192,0,0)}
+.c08bd{border-color:rgb(255,102,102)}
+.c09bd{border-color:rgb(246,155,0)}
+.c10bd{border-color:rgb(22,145,78)}
+.c11bd{border-color:rgb(0,112,192)}
+.c12bd{border-color:rgb(112,48,160)}
+.c13bd{border-color:rgb(255,210,207)}
+.c14bd{border-color:rgb(241,236,97)}
+.c15bd{border-color:rgb(181,246,137)}
+.c16bd{border-color:rgb(177,234,250)}
+.c17bd{border-color:rgb(177,88,77)}
+.c18bd{border-color:rgb(176,188,92)}
+.c19bd{border-color:rgb(88,150,157)}
+.c20bd{border-color:rgb(136,136,215)}
+.c21bd{border-color:rgb(90,31,49)}
+.c22bd{border-color:rgb(61,55,2)}
+.c23bd{border-color:rgb(9,57,15)}
+.c24bd{border-color:rgb(49,16,74)}
+.t01{background-image:none}
+.t02{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_a.png")}
+.t03{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star.png")}
+.t04{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_geometry.png")}
+.t05{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_c.png")}
+.t06{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_camouflaged.png")}
+.t07{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_plaid.png")}
+.t08{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe.png")}
+.t09{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_leopard.png")}
+.t10{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_zebra.png")}
+.t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_35.png")}
+.c01 .t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_60.png")}
+.c13 .t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_60.png")}
+.c14 .t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_60.png")}
+.c15 .t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_60.png")}
+.c16 .t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_60.png")}
+.c21 .t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_20.png")}
+.c22 .t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_20.png")}
+.c23 .t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_20.png")}
+.c24 .t13{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_momiji_20.png")}
+.t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_35.png")}
+.c01 .t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_60.png")}
+.c13 .t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_60.png")}
+.c14 .t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_60.png")}
+.c15 .t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_60.png")}
+.c16 .t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_60.png")}
+.c21 .t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_20.png")}
+.c22 .t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_20.png")}
+.c23 .t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_20.png")}
+.c24 .t14{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_tree_20.png")}
+.t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_35.png")}
+.c01 .t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_60.png")}
+.c13 .t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_60.png")}
+.c14 .t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_60.png")}
+.c15 .t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_60.png")}
+.c16 .t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_60.png")}
+.c21 .t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_20.png")}
+.c22 .t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_20.png")}
+.c23 .t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_20.png")}
+.c24 .t15{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_20.png")}
+.t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_35.png")}
+.c01 .t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_60.png")}
+.c13 .t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_60.png")}
+.c14 .t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_60.png")}
+.c15 .t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_60.png")}
+.c16 .t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_60.png")}
+.c21 .t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_20.png")}
+.c22 .t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_20.png")}
+.c23 .t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_20.png")}
+.c24 .t16{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mizutama_rev_20.png")}
+.t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_35.png")}
+.c01 .t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_60.png")}
+.c13 .t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_60.png")}
+.c14 .t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_60.png")}
+.c15 .t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_60.png")}
+.c16 .t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_60.png")}
+.c21 .t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_20.png")}
+.c22 .t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_20.png")}
+.c23 .t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_20.png")}
+.c24 .t17{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_big_rev_20.png")}
+.t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_35.png")}
+.c01 .t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_60.png")}
+.c13 .t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_60.png")}
+.c14 .t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_60.png")}
+.c15 .t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_60.png")}
+.c16 .t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_60.png")}
+.c21 .t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_20.png")}
+.c22 .t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_20.png")}
+.c23 .t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_20.png")}
+.c24 .t18{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_20.png")}
+.t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_35.png")}
+.c01 .t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_60.png")}
+.c13 .t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_60.png")}
+.c14 .t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_60.png")}
+.c15 .t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_60.png")}
+.c16 .t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_60.png")}
+.c21 .t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_20.png")}
+.c22 .t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_20.png")}
+.c23 .t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_20.png")}
+.c24 .t19{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_b_20.png")}
+.t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_35.png")}
+.c01 .t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_60.png")}
+.c13 .t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_60.png")}
+.c14 .t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_60.png")}
+.c15 .t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_60.png")}
+.c16 .t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_60.png")}
+.c21 .t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_20.png")}
+.c22 .t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_20.png")}
+.c23 .t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_20.png")}
+.c24 .t20{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_20.png")}
+.t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_35.png")}
+.c01 .t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_60.png")}
+.c13 .t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_60.png")}
+.c14 .t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_60.png")}
+.c15 .t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_60.png")}
+.c16 .t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_60.png")}
+.c21 .t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_20.png")}
+.c22 .t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_20.png")}
+.c23 .t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_20.png")}
+.c24 .t21{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tirolian_20.png")}
+.t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_35.png")}
+.c01 .t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_60.png")}
+.c13 .t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_60.png")}
+.c14 .t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_60.png")}
+.c15 .t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_60.png")}
+.c16 .t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_60.png")}
+.c21 .t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_20.png")}
+.c22 .t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_20.png")}
+.c23 .t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_20.png")}
+.c24 .t22{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_bms_20.png")}
+.t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_35.png")}
+.c01 .t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_60.png")}
+.c13 .t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_60.png")}
+.c14 .t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_60.png")}
+.c15 .t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_60.png")}
+.c16 .t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_60.png")}
+.c21 .t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_20.png")}
+.c22 .t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_20.png")}
+.c23 .t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_20.png")}
+.c24 .t23{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chidori_20.png")}
+.t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_35.png")}
+.c01 .t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_60.png")}
+.c13 .t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_60.png")}
+.c14 .t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_60.png")}
+.c15 .t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_60.png")}
+.c16 .t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_60.png")}
+.c21 .t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_20.png")}
+.c22 .t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_20.png")}
+.c23 .t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_20.png")}
+.c24 .t24{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_check_diagonal_20.png")}
+.t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_35.png")}
+.c01 .t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_60.png")}
+.c13 .t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_60.png")}
+.c14 .t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_60.png")}
+.c15 .t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_60.png")}
+.c16 .t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_60.png")}
+.c21 .t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_20.png")}
+.c22 .t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_20.png")}
+.c23 .t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_20.png")}
+.c24 .t25{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_mixed_20.png")}
+.t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_35.png")}
+.c01 .t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_60.png")}
+.c13 .t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_60.png")}
+.c14 .t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_60.png")}
+.c15 .t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_60.png")}
+.c16 .t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_60.png")}
+.c21 .t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_20.png")}
+.c22 .t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_20.png")}
+.c23 .t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_20.png")}
+.c24 .t26{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_stripe_diagonal_20.png")}
+.t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_35.png")}
+.c01 .t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_60.png")}
+.c13 .t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_60.png")}
+.c14 .t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_60.png")}
+.c15 .t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_60.png")}
+.c16 .t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_60.png")}
+.c21 .t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_20.png")}
+.c22 .t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_20.png")}
+.c23 .t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_20.png")}
+.c24 .t27{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_dot_color_20.png")}
+.t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_35.png")}
+.c01 .t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_60.png")}
+.c13 .t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_60.png")}
+.c14 .t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_60.png")}
+.c15 .t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_60.png")}
+.c16 .t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_60.png")}
+.c21 .t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_20.png")}
+.c22 .t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_20.png")}
+.c23 .t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_20.png")}
+.c24 .t28{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine_20.png")}
+.t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_35.png")}
+.c01 .t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_60.png")}
+.c13 .t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_60.png")}
+.c14 .t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_60.png")}
+.c15 .t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_60.png")}
+.c16 .t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_60.png")}
+.c21 .t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_20.png")}
+.c22 .t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_20.png")}
+.c23 .t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_20.png")}
+.c24 .t29{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_2_20.png")}
+.t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_35.png")}
+.c01 .t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_60.png")}
+.c13 .t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_60.png")}
+.c14 .t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_60.png")}
+.c15 .t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_60.png")}
+.c16 .t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_60.png")}
+.c21 .t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_20.png")}
+.c22 .t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_20.png")}
+.c23 .t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_20.png")}
+.c24 .t30{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_star_3_20.png")}
+.t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_35.png")}
+.c01 .t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_60.png")}
+.c13 .t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_60.png")}
+.c14 .t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_60.png")}
+.c15 .t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_60.png")}
+.c16 .t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_60.png")}
+.c21 .t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_20.png")}
+.c22 .t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_20.png")}
+.c23 .t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_20.png")}
+.c24 .t31{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_xmas_20.png")}
+.t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_35.png")}
+.c01 .t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_60.png")}
+.c13 .t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_60.png")}
+.c14 .t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_60.png")}
+.c15 .t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_60.png")}
+.c16 .t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_60.png")}
+.c21 .t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_20.png")}
+.c22 .t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_20.png")}
+.c23 .t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_20.png")}
+.c24 .t32{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_snow_20.png")}
+.t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_35.png")}
+.c01 .t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_60.png")}
+.c13 .t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_60.png")}
+.c14 .t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_60.png")}
+.c15 .t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_60.png")}
+.c16 .t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_60.png")}
+.c21 .t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_20.png")}
+.c22 .t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_20.png")}
+.c23 .t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_20.png")}
+.c24 .t33{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kago_20.png")}
+.t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_35.png")}
+.c01 .t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_60.png")}
+.c13 .t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_60.png")}
+.c14 .t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_60.png")}
+.c15 .t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_60.png")}
+.c16 .t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_60.png")}
+.c21 .t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_20.png")}
+.c22 .t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_20.png")}
+.c23 .t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_20.png")}
+.c24 .t34{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tsuru_20.png")}
+.t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_35.png")}
+.c01 .t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_60.png")}
+.c13 .t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_60.png")}
+.c14 .t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_60.png")}
+.c15 .t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_60.png")}
+.c16 .t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_60.png")}
+.c21 .t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_20.png")}
+.c22 .t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_20.png")}
+.c23 .t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_20.png")}
+.c24 .t35{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_20.png")}
+.t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_35.png")}
+.c01 .t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_60.png")}
+.c13 .t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_60.png")}
+.c14 .t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_60.png")}
+.c15 .t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_60.png")}
+.c16 .t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_60.png")}
+.c21 .t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_20.png")}
+.c22 .t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_20.png")}
+.c23 .t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_20.png")}
+.c24 .t36{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nami_20.png")}
+.t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_35.png")}
+.c01 .t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_60.png")}
+.c13 .t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_60.png")}
+.c14 .t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_60.png")}
+.c15 .t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_60.png")}
+.c16 .t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_60.png")}
+.c21 .t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_20.png")}
+.c22 .t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_20.png")}
+.c23 .t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_20.png")}
+.c24 .t37{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kiku_20.png")}
+.t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_35.png")}
+.c01 .t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_60.png")}
+.c13 .t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_60.png")}
+.c14 .t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_60.png")}
+.c15 .t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_60.png")}
+.c16 .t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_60.png")}
+.c21 .t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_20.png")}
+.c22 .t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_20.png")}
+.c23 .t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_20.png")}
+.c24 .t38{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_sakura_20.png")}
+.t39{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_childrens_day.png")}
+.t40{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_carnation.png")}
+.t41{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_rainy_season.png")}
+.t42{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_goldfish.png")}
+.t43{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_fireworks.png")}
+.t44{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_natsu_matsuri.png")}
+.t45{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_watermelon.png")}
+.t46{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_kakigori.png")}
+.t47{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_ice_cream.png")}
+.t48{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_cherry.png")}
+.t49{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_windmill.png")}
+.t50{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_skull.png")}
+.t51{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_strawberry.png")}
+.t52{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_paisley.png")}
+.t53{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_leaf.png")}
+.t54{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_mushroom.png")}
+.t55{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_piano.png")}
+.t56{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_lotus.png")}
+.t57{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_halloween.png")}
+.t58{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_chestnut.png")}
+.t59{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_argyle.png")}
+.t60{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_jacquard1.png")}
+.t61{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_jacquard2.png")}
+.t62{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_paper.png")}
+.t63{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_native.png")}
+.t64{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_reindeer.png")}
+.t65{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_shogatsu_matsuri.png")}
+.t66{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_setsubun.png")}
+.t67{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_valentine2.png")}
+.t68{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_hinamatsuri.png")}
+.t69{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_tulip.png")}
+.t70{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.2.1/texture_nyugakushiki.png")}
+.t11{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.0.0/texture_oxhide.png")}
+.t12{background-image:url("https://s.yimg.jp/images/login/sp/img/theme/1.0.0/texture_stone.png")}
+a:hover{text-decoration:underline}
+.yjM{font-size:small;voice-family:inherit}
+html > body .yjM{font-size:medium}
+.yjMt{line-height:1.4em;font-size:small;voice-family:inherit}
+html > body .yjMt{font-size:medium}
+.yjS{font-size:x-small;voice-family:inherit}
+html > body .yjS{font-size:small}
+.yjSt{line-height:1.3em;font-size:x-small;voice-family:inherit}
+html > body .yjSt{font-size:small}
+.yregclb::after{height:0px;line-height:0;clear:both;font-size:0px;display:block;visibility:hidden;-ms-zoom:100%;content:"."}
+.yregwp{margin:0px auto;width:950px;text-align:left}
+#msthd{margin:13px auto 9px;width:100%;line-height:1.22 !important}
+#msthd::after{clear:both;display:block;content:""}
+#msthd div{list-style:none;margin:0px;padding:0px;font-size:small}
+#msthd li{list-style:none;margin:0px;padding:0px;font-size:small}
+#msthd p{list-style:none;margin:0px;padding:0px;font-size:small}
+#msthd ul{list-style:none;margin:0px;padding:0px;font-size:small}
+#msthd a img{border:0px currentColor;border-image:none}
+#msthd .logo{padding:0px 10px 5px 5px;float:left}
+#msthd .msthdtxt{margin:6px 0px 0px;width:50%;float:left;position:relative;z-index:1;min-height:2.4em}
+#msthd .b{font-weight:700}
+#msthd .msthdlink{width:60%;float:right;position:relative}
+#msthd .msthdlink ul{text-align:right;margin-top:0.8em;float:right}
+#msthd .msthdlink ul li.ytop{padding-right:5px;float:left}
+#msthd .msthdlink ul li.help{margin-left:5px;float:left;display:block}
+#msthd .msthdlink .compo{margin:7px 0px 0px;width:100%;text-align:right;clear:both;float:right}
+#msthd .msthdlink .compo .bn{width:70px;float:right}
+#msthd .msthdlink .compo .txt{margin:0.6em 5px 0px 0px;float:right}
+#yregct{padding:0px;margin-bottom:40px;position:relative;min-height:440px}
+#yreglg{top:10px;width:275px;right:10px;position:absolute;z-index:998}
+#yregtctx #yregtxt{margin:0px}
+#yregtxt dl{margin-bottom:140px}
+#yregtxt{padding-top:1px}
+#yregtxt table{margin:10px 300px 3em 10px;width:640px}
+#yreghtxt{padding:10px 0px 0px 10px}
+#yregtctx #yreghtxt{height:480px;margin-right:300px}
+#yregtgen #yregtxt{margin:0px 285px 0px 0px}
+#yregtgen #yregct{margin:0px 10px 0px 0px;padding:0px;position:static}
+#yregtgen #yreglg{top:10px;right:0px;float:right;position:relative}
+#yregft{padding:10px 0px 12px;text-align:center;border-top-color:rgb(153,153,153);border-top-width:1px;border-top-style:solid}
+.yregbxi{border:1px solid rgb(221,221,221);border-image:none;position:relative;z-index:0;background-color:rgb(249,249,249)}
+#yregtxt .yregbx{border-color:rgb(221,221,221);background-color:rgb(245,245,245)}
+#yregtxt ul{margin:0px 0px 10px;padding:0px}
+#yregtxt li{list-style:none;margin:18px 0px 0px;padding:0px}
+#yregtxt li cite{font-style:normal}
+#yreglg h1{text-align:left;line-height:130%}
+#yreglg h2{text-align:left;line-height:130%}
+#yreglg h3{text-align:left;line-height:130%}
+#yreglg fieldset{background:none;border:0px currentColor;border-image:none}
+#yreglg form{background:none;border:0px currentColor;border-image:none}
+h1{display:none}
+h1.verify{margin:8px 0px 10px;display:block}
+.yregertxt{margin:5px 0px 12px}
+#yreglg .yregertxt h2{color:rgb(230,0,19);font-size:96%}
+.yregertxt{color:rgb(230,0,19);font-size:96%}
+.yregertxt h2 span.help{font-weight:400}
+.yregertxt .msg{color:rgb(51,51,51);line-height:1.5;font-size:96%;-ms-word-break:break-all;-ms-word-wrap:break-word}
+#yregtgen #yregtxt p{margin:0px 0px 0.8em}
+#yregtgen #yregtxt .yregbpt li{background:url("https://s.yimg.jp/images/login/reg06/purple_arrow.gif") no-repeat 1px 4px;margin:0px 0px 10px 4px;padding:0px 0px 10px 22px}
+#yregtgen #yregtxt #yreghtxt h2{color:rgb(122,6,127);margin-bottom:20px}
+#yregtgen #yregtxt #yreghtxt h3{margin:0px 0px 4px}
+#wall{height:800px;padding-top:1px}
+.wall #yreglg{top:95px}
+.wall #contents{padding-bottom:47px}
+.wall #footer{width:100%}
+.wall #yregct{margin-bottom:0px}
+.wall #yregtxt{padding-top:0px}
+.wall #yregft{background:rgb(255,255,255);width:100%;height:26px;bottom:0px;position:fixed;z-index:3}
+.kids a{color:rgb(51,153,204)}
+.kids #yregft{height:40px;line-height:1.3}
+#EMG{text-align:center}
+#EMG table{margin:0px auto 12px !important;text-align:left}
+#EMG table table{margin:0px !important}
+#notices{margin-bottom:10px;visibility:hidden;min-height:30px}
+#notices .yregbxi{margin:18px 0px 10px 10px}
+#notices .information{background:rgb(245,245,245);margin:18px 0px 10px;padding:10px 12px}
+#notices strong.label{width:7.6em;color:rgb(153,0,0);padding-top:0.2em;float:left}
+#notices p{line-height:1.3em}
+#notices .info.trouble{padding:6px}
+#notices .info.warn{padding:6px}
+#notices .info.ads{padding:0px 10px}
+#notices .info.ads ul{display:flex}
+#notices .info.ads ul li{flex:1 1 0px;line-height:30px;font-size:13px}
+#notices .info.ads ul li span{font-weight:700}
+#notices .info.ads ul li span::before{border-width:4px 4px 4px 6px;border-style:solid;border-color:transparent transparent transparent rgb(204,204,204);border-image:none;display:inline-block;content:""}
+#notices .release{background:rgb(234,244,234);border:1px solid rgb(123,189,123);border-image:none}
+#notices .promo{background:rgb(252,249,228);border:1px solid rgb(241,198,124);border-image:none}
+#notices .caution{background:rgb(249,230,230);border:1px solid rgb(237,184,184);border-image:none}
+#yregpmtxt h3{margin:0px}
+#yregtgen #yregtxt h2{margin:0px}
+#yregtpopup #yregtxt h2{margin:0px}
+#yregtgen #yregtxt p.yregpti{margin:0px 0px 2px}
+#yregtpopup #yregtxt p.yregpti{margin:0px 0px 2px}
+#yregtpopup #yregtxt{margin-bottom:20px}
+#yregtgen #yregtxt #yreghtxt h3{margin:0px}
+#yregtpopup #yregtxt #yreghtxt h3{margin:0px}
+#yregtgen #yregtxt p{margin:0px 0px 0.8em}
+#yregtpopup #yregtxt p{margin:0px 0px 0.8em}
+#yregtctx #yregtxt .yregbpt li{background:url("https://s.yimg.jp/images/login/reg06/purple_arrow.gif") no-repeat 1px 4px;margin:0px 0px 10px 4px;padding:0px 0px 10px 22px}
+#yregtgen #yregtxt .yregbpt li{background:url("https://s.yimg.jp/images/login/reg06/purple_arrow.gif") no-repeat 1px 4px;margin:0px 0px 10px 4px;padding:0px 0px 10px 22px}
+#yregtpopup #yregtxt .yregbpt li{background:url("https://s.yimg.jp/images/login/reg06/purple_arrow.gif") no-repeat 1px 4px;margin:0px 0px 10px 4px;padding:0px 0px 10px 22px}
+#yregtctx #yregtxt .yregbpt li{margin:0px}
+#yregtgen #yregtxt #yreghtxt h3{margin:0px}
+#yregtpopup #yregtxt #yreghtxt h3{margin:0px}
+#yregtgen #yregtxt .yregbpt li ul{margin:10px 0px 0px;padding:0px 0px 0px 15px}
+#yregtgen #yregtxt .yregbpt li ul li{background:none;margin:0px 0px 5px;padding:0px}
+#yregtgen #yregtxt .yregbpt li h3{padding-bottom:0.4em}
+#yreghtxt ul{margin-left:0px}
+#yreghtxt ul.inlineHeaders li h3{display:inline}
+.yregbxi .yreginfotxt{padding:10px;-ms-word-break:break-all;-ms-word-wrap:break-word;background-color:rgba(255,248,218,0.9)}
+.yregbxi .yreginfotxt .msg{font-size:12px}
+.yregbxi #noticeBox{margin:10px 10px 0px;padding:10px;border-radius:3px;font-size:12px;background-color:rgba(236,244,255,0.7)}
+.yregbxi #noticeBox a::before{border-radius:15px;top:0px;width:15px;height:15px;text-align:center;color:rgb(255,255,255);line-height:15px;font-size:12px;font-weight:700;margin-right:2px;display:inline-block;position:relative;content:"i";background-color:rgb(0,102,255)}
+.yregbxi .navi{padding:10px;box-sizing:border-box}
+.yregbxi .navi #backBtn{background-position:2px;width:20px;height:28px;display:block;background-image:url("https://s.yimg.jp/images/login/sp/img/login/1.0.1/back.png");background-repeat:no-repeat;background-size:14px 22px}
+.yregbxi .navi #backBtn span{text-indent:100%;overflow:hidden;display:block;white-space:nowrap}
+.yregbxi .navi #themeBtnBox{text-align:right}
+.yregbxi .navi #btnTheme{background-position:0px 0px;border:1px solid transparent;border-image:none;width:54px;height:20px;line-height:1;text-indent:100%;overflow:hidden;vertical-align:top;display:inline-block;white-space:nowrap;background-image:url("https://s.yimg.jp/images/login/pc/img/login/1.0.0/theme_btn.png");background-repeat:no-repeat}
+html:not(:target) #btnTheme{background-image:url("https://s.yimg.jp/images/login/pc/img/login/1.0.0/theme_btn_2x.png");background-size:54px 20px}
+.yregbxi .sendCodeMessageBox{background:rgb(255,244,184);margin:0px 10px 10px;padding:10px;border-radius:2px;border:1px solid rgb(223,223,223);border-image:none;text-align:left;font-size:13px;-ms-word-break:break-all}
+.yregbxi .sendCodeMessageBox .destination{font-weight:700}
+.inputArea{margin:0px 5px 5px;padding:5px;border-radius:4px;background-color:hsla(0,0%,100%,0.65)}
+.inputArea.loading{visibility:hidden}
+.inputArea.loading::after{background-position:50% 50%;animation:loading 1s infinite;left:50%;top:50%;width:32px;height:32px;margin-top:-16px;margin-left:-16px;visibility:visible;position:absolute;content:"";background-image:url("https://s.yimg.jp/images/login/sp/img/login/1.0.0/loading_b.png");background-repeat:no-repeat;background-size:32px 32px;-webkit-animation:loading 1s ease infinite}
+.inputArea .box{background:none;margin:0px 0px 20px;padding:0px;border-radius:2px;border:currentColor;border-image:none;position:relative;box-shadow:none}
+.inputArea #inpAuthMethod{margin:5px 0px 15px;color:rgb(102,102,102);line-height:1;font-size:13px}
+.inputArea .offLeft{left:-9999px;width:9999px;height:0px;text-indent:100%;overflow:hidden;display:block;white-space:nowrap;position:absolute}
+.inputArea .inpUsername{margin:10px 0px 12px;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;position:relative;-ms-word-break:break-all}
+.inputArea .persistency{margin:10px 0px}
+.inputArea .persistency label{padding-left:3px}
+.inputArea .links{list-style:none;padding:0px}
+.inputArea .links li{line-height:1.8;font-size:12px}
+.inputArea .links .ar{float:left}
+.inputArea .links .getYid{float:right}
+.inputArea .links .resend{padding:0px;border:currentColor;border-image:none;color:rgb(67,116,251);font-size:12px;display:inline;cursor:pointer;background-color:transparent;-webkit-appearance:none;-moz-appearance:none;appearance:none}
+.inputArea .links .resend:hover{text-decoration:underline}
+.inputArea .links :disabled.resend{color:rgb(51,51,51);text-decoration:none;cursor:not-allowed;opacity:0.5}
+.inputArea .errMessage{background:rgb(247,247,247);padding:20px 10px;border-radius:4px;border:0.5px solid rgb(230,230,230);border-image:none}
+.inputArea .errMessage p{color:rgb(102,102,102);line-height:1.4;font-size:13px}
+.inputArea .errMessage div{margin:10px 10px 0px;text-align:center;line-height:1.4;font-size:13px}
+.inputArea .errMessage ul{text-align:center;font-size:14px}
+.inputArea .errMessage ul li{margin:20px 0px;line-height:1.5}
+.inputArea .errMessage ul li:last-child{margin-bottom:0px}
