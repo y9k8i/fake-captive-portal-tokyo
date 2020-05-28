@@ -4,7 +4,6 @@
 
 <head id="Head1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-	<meta name="apple-mobile-webapp-capable" content="yes">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>ご利用方法選択</title>
 	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
@@ -15,89 +14,87 @@
 	<style>.navlink{display:block}.Brandimg{max-height:100%}</style>
 	<style type="text/css">.form-signin{max-width:360px;display:block;margin-left:auto;margin-right:auto;margin-top:30px}.p1{margin-top:20px;margin-bottom:20px}</style>
 	<link href="{{ url_for('static', filename='css/uspot.jp.css') }}" rel="stylesheet" type="text.css">
-	<link rel="SHORTCUT ICON" href="https://www.uspot.jp/img/oem/124/124.ico">
-	<link rel="apple-touch-icon" href="https://www.uspot.jp/img/oem/124/u124_114.gif">
 	<meta name="robots" content="noindex">
 </head>
 
 <body>
 <form method="post" id="form1" style="background-color:#FFFFFF;padding-top:0px;" enctype="multipart/form-data">
-    <script type="text/javascript">
-    //<![CDATA[
-        var theForm=document.forms['form1'];if (!theForm){theForm=document.form1}function __doPostBack(eventTarget, eventArgument){if (!theForm.onsubmit || (theForm.onsubmit() !=false)){theForm.submit()}}
-    //]]>
-    </script>
-    <script src="{{ url_for('static', filename='js/MsAjaxJs.js') }}" type="text/javascript"></script>
-    <script src="{{ url_for('static', filename='js/WebFormsJs.js') }}" type="text/javascript"></script>
-    <script src="{{ url_for('static', filename='js/focus.js') }}" type="text/javascript"></script>
-    <script type="text/javascript">
-    //<![CDATA[
-        Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'form1', [], [], [], 90, 'ctl00');
-    //]]>
-    </script>
+	<script type="text/javascript">
+	//<![CDATA[
+		var theForm=document.forms['form1'];if (!theForm){theForm=document.form1}function __doPostBack(eventTarget, eventArgument){if (!theForm.onsubmit || (theForm.onsubmit() !=false)){theForm.submit()}}
+	//]]>
+	</script>
+	<script src="{{ url_for('static', filename='js/MsAjaxJs.js') }}" type="text/javascript"></script>
+	<script src="{{ url_for('static', filename='js/WebFormsJs.js') }}" type="text/javascript"></script>
+	<script src="{{ url_for('static', filename='js/focus.js') }}" type="text/javascript"></script>
+	<script type="text/javascript">
+	//<![CDATA[
+		Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'form1', [], [], [], 90, 'ctl00');
+	//]]>
+	</script>
 
-    <nav id="rightnav">
-        <ul class="list-unstyled main-menu">
-            <li class="text-right"><a id="nav-close" class="navlink">X</a></li>
-            <li class="nav-header">
-                <span id="Repeater1_Lm1_0">接続設定・ご利用方法</span>
-            </li>
-            <li>
-                <a id="Repeater1_HLm1_1" class="navlink" href="{{ url_for('static' , filename='html/help_iOS_ja.html')}}">
-                    <span class="glyphicon glyphicon-chevron-right"></span>iPhone・iPad
-                </a>
-            </li>
-            <li>
-                <a id="Repeater1_HLm1_2" class="navlink" href="{{ url_for('static' , filename='html/help_android_ja.html')}}">
-                    <span class="glyphicon glyphicon-chevron-right"></span>Android
-                </a>
-            </li>
-            <li class="nav-header">
-                <span id="Repeater1_Lm1_3">ご利用開始について</span>
-            </li>
-            <li>
-                <a id="Repeater1_HLm1_4" class="navlink" href="{{ url_for('static' , filename='html/help_nexentry_ja.html')}}">
-                    <span class="glyphicon glyphicon-chevron-right"></span>利用登録マニュアル
-                </a>
-            </li>
-            <li>
-                <a id="Repeater1_HLm1_5" class="navlink" href="{{ url_for('static' , filename='html/help_nexagreement_ja.html')}}">
-                    <span class="glyphicon glyphicon-chevron-right"></span>利用約款
-                </a>
-            </li>
-            <li>
-                <a id="Repeater1_HLm1_6" class="navlink" href="{{ url_for('static' , filename='html/help_nexattention_ja.html')}}">
-                    <span class="glyphicon glyphicon-chevron-right"></span>ご利用上の注意事項
-                </a>
-            </li>
-        </ul>
-    </nav>
+	<nav id="rightnav">
+		<ul class="list-unstyled main-menu">
+			<li class="text-right"><a id="nav-close" class="navlink">X</a></li>
+			<li class="nav-header">
+				<span id="Repeater1_Lm1_0">接続設定・ご利用方法</span>
+			</li>
+			<li>
+				<a id="Repeater1_HLm1_1" class="navlink" href="{{ url_for('static', filename='html/help_iOS_ja.html')}}">
+					<span class="glyphicon glyphicon-chevron-right"></span>iPhone・iPad
+				</a>
+			</li>
+			<li>
+				<a id="Repeater1_HLm1_2" class="navlink" href="{{ url_for('static', filename='html/help_android_ja.html')}}">
+					<span class="glyphicon glyphicon-chevron-right"></span>Android
+				</a>
+			</li>
+			<li class="nav-header">
+				<span id="Repeater1_Lm1_3">ご利用開始について</span>
+			</li>
+			<li>
+				<a id="Repeater1_HLm1_4" class="navlink" href="{{ url_for('static', filename='html/help_nexentry_ja.html')}}">
+					<span class="glyphicon glyphicon-chevron-right"></span>利用登録マニュアル
+				</a>
+			</li>
+			<li>
+				<a id="Repeater1_HLm1_5" class="navlink" href="{{ url_for('static', filename='html/help_nexagreement_ja.html')}}">
+					<span class="glyphicon glyphicon-chevron-right"></span>利用約款
+				</a>
+			</li>
+			<li>
+				<a id="Repeater1_HLm1_6" class="navlink" href="{{ url_for('static', filename='html/help_nexattention_ja.html')}}">
+					<span class="glyphicon glyphicon-chevron-right"></span>ご利用上の注意事項
+				</a>
+			</li>
+		</ul>
+	</nav>
 
-    <div id="wrap" style="background-color:#FFFFFF">
-    <!--Param -->
-        <!-- Fixed navbar -->
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="topnavigation">
-            <div class="container-fluid header">
-                <img id="ImgBrand" class="navbar-brand Brandimg" src="{{ url_for('static', filename='images/oem124.png') }}" align="top" style="padding-left:0px;">
-                <div class="navbar-header pull-right" style="margin-top:3.5px;">
-                    <a id="nav-expander" style="margin-right:5px;font-size:15px;text-decoration:none;cursor:pointer;">
-                        <img id="ImgUser" class="img-rounded" src="{{ url_for('static', filename='images/UU.png') }}" style="border-style:None;width:38px;">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid bs-docs-container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="panel panel-primary form-signin">
-                                <div class="panel-heading">
-                                    <h4>ご利用方法選択</h4>
-                                </div>
-                                <div class="panel-body">
-                                    <h4>初めてご利用される方</h4>
-                                    <p class="p1">
+	<div id="wrap" style="background-color:#FFFFFF">
+	<!--Param -->
+		<!-- Fixed navbar -->
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="topnavigation">
+			<div class="container-fluid header">
+				<img id="ImgBrand" class="navbar-brand Brandimg" src="{{ url_for('static', filename='images/oem124.png') }}" align="top" style="padding-left:0px;">
+				<div class="navbar-header pull-right" style="margin-top:3.5px;">
+					<a id="nav-expander" style="margin-right:5px;font-size:15px;text-decoration:none;cursor:pointer;">
+						<img id="ImgUser" class="img-rounded" src="{{ url_for('static', filename='images/UU.png') }}" style="border-style:None;width:38px;">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bs-docs-container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="panel panel-primary form-signin">
+								<div class="panel-heading">
+									<h4>ご利用方法選択</h4>
+								</div>
+								<div class="panel-body">
+									<h4>初めてご利用される方</h4>
+									<p class="p1">
 											<a id="CPH1_HLbtn2" class="btn btn-large btn-primary btn-block"
 												href="{{ url_for('static', filename='FacebookOAuth/Facebook_login.html') }}"><img
 													src="{{ url_for('static', filename='images/white_facebook.png') }}">
@@ -119,16 +116,13 @@
 												Yahoo!Japanアカウントで接続
 											</a>
 											<a id="CPH1_HLbtn6" class="btn btn-large btn-primary btn-block"
-												href="{{ url_for('static', filename='html/mixiOAuth/mixi_login.html') }}"><img
+												href="{{ url_for('static', filename='mixiOAuth/mixi_login.html') }}"><img
 													src="{{ url_for('static', filename='images/white_mixi.png') }}">
 												mixiアカウントで接続
 											</a>
 										</p>
 										<p class="p1">
-											<a id="CPH1_Lbtn2" class="btn btn-large btn-info btn-block" href="javascript:__doPostBack(&#x27;ctl00$CPH1$Lbtn2&#x27;,&#x27;&#x27;)">メールアドレスで新規登録</a>
-										</p>
-										<p class="p1">
-											<a id="CPH1_PolicyLink" href="{{ url_for('static' , filename='html/help_nexagreement_ja.html')}}">privacy policy</a>
+											<a id="CPH1_PolicyLink" href="{{ url_for('static', filename='html/help_nexagreement_ja.html')}}">privacy policy</a>
 										</p>
 										<hr>
 										<h4>登録済みの方</h4>
@@ -145,11 +139,6 @@
 			</div>
 		</div>
 
-		<div id="UProgress" style="display:none;" role="status" aria-hidden="true">
-			<div style="bottom:50px;left:5px">
-				<img id="Image1" src="{{ url_for('static', filename='images/ajax-loader.gif') }}">
-			</div>
-		</div>
 		<p style="margin-top: 20px; display: none;" class="pull-right" id="back-top">
 			<a style="color:#1ABC9C;font-size:24px"><span class="glyphicon glyphicon-chevron-up"></span></a>
 		</p>
@@ -164,8 +153,7 @@
 
 		<script src="{{ url_for('static', filename='js/jquery-1.10.2.min.js') }}"></script>
 		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/jquery.navgoco.min.js') }}"></script>
-		<script>$(document).ready(function (){$('#nav-expander').on('click', function (e){e.preventDefault();$('body').toggleClass('nav-expanded')});$('#nav-close').on('click', function (e){e.preventDefault();$('body').removeClass('nav-expanded')});$(".main-menu").navgoco({caret:'<span class="caret"></span>',accordion:false,openClass:'open',save:true,cookie:{name:'navgoco',expires:false,path:'/'},slide:{duration:300,easing:'swing'}})});</script>
+		<script>$(document).ready(function (){$('#nav-expander').on('click', function (e){e.preventDefault();$('body').toggleClass('nav-expanded')});$('#nav-close').on('click', function (e){e.preventDefault();$('body').removeClass('nav-expanded')});});</script>
 		<script type="text/javascript">function pageLoad(){var mng=Sys.WebForms.PageRequestManager.getInstance();mng.add_initializeRequest( function (sender, args){ if (mng.get_isInAsyncPostBack()){ args.set_cancel(true)}})}</script>
 		<script type="text/javascript">$(document).ready(function (){ $("#back-top").hide(); $(window).scroll(function (){ if ($(this).scrollTop() >250){ $('#back-top').fadeIn()} else{ $('#back-top').fadeOut()}}); $('#back-top a').click(function (){ $('body,html').animate({ scrollTop:0}, 800); return false})});</script>
 		<script type="text/javascript">
