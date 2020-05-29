@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>体験終了</title>
+	<link href="static/css/login_successful.css" rel="stylesheet" >
+	</head>
+
+	<body>
+	<h1 class="text-center">たった今あなたのパスワードが盗まれました</h1>
+	<p class="text-center">ID: <span id="id_area"></span></p>
+	<p class="text-center">PW: <span id="pw_area"></span></p>
+	<script>
+		function getParameterByName(name) {
+			name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+				results = regex.exec(location.search);
+			return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+		document.getElementById("id_area").innerText = getParameterByName("login");
+		document.getElementById("pw_area").innerText = getParameterByName("password");
+	</script>
+	</body>
+</html>
